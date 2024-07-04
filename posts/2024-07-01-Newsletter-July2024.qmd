@@ -3,7 +3,7 @@ title: "Newsletter July 2024"
 description: "The July 2024 Newsletter, with updates of activities over the last year, and how to get involved."
 author: "Admin"
 date: "2024-07-03"
-draft: true
+draft: false
 ---
 
 \
