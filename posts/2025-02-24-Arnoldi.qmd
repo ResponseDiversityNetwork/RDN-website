@@ -1,0 +1,39 @@
+---
+title: "Jean-François Arnoldi Seminar"
+description: "Jean-François Arnoldi will talk about Linear functional ecology: Rethinking species contributions to ecosystem functions"
+author: "Admin"
+date: "2025-01-06"
+draft: false
+---
+
+\
+
+::: columns
+::: {.column width="40%"}
+![](../assets/images/Arnoldi.png){width="200"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
+\
+Dr. Jean-François Arnoldi will give an online presentation on Wednesday 26th February at 15:00-16:00 CET. JF is a Researcher at Sete (Theoretical and Experimental Ecology Station), CNRS, in France. With his background in mathematics (specifically chaotic dynamics), JF has since turned his attention to the assembly, stability, and functioning of ecological communities. He will talk about species' contributions to ecosystem functions. 
+:::
+:::
+
+# Linear functional ecology: Rethinking species contributions to ecosystem functions
+
+Ecosystem functions describe processes like biomass production, respiration, or nutrient cycling, that can be key to the livelihood of humans and other life forms. These functions are collectively performed by the many species that constitute an ecosystem; trees is a forest, plants in a grassland, or bacterial strains in a microbiome. Here, I will use linear algebra to show that generically, there is a sense in which a rare species can have as much importance as an abundant one. The reason why this claim is not obvious comes from the fact that in functional ecology, under the mass ratio hypothesis, species contributions should be well predicted by their effect traits and abundance. I will illustrate using soil-microbiome data that this hypothesis has merit, even for complex functions related to nutrient cycling. Yet the mass-ratio hypothesis has an awkward corollary: functions are typically performed by just a few dominant species, so that most of an ecosystem's diversity appears redundant, or even useless. To understand why rare species can be important, one has to take a perturbative approach, looking at the sensitivity of a function to say, added mortality (a pathogen) on a given species. Doing so reveals a completely different picture than the one the mass-ratio hypothesis depicts. Via direct and indirect interactions between them, species can have large impacts on a given function, even if those species are rare or if they do not possess traits that relate to the function.
+
+# The details
+
+When: Wednesday 26th February at 15:00-16:00 CET (14:00 GMT, 23:00 JST, 09:00 EST, 06:00 PST) Where: The seminar will be held on Zoom [click here](https://swanseauniversity.zoom.us/j/92171014107?pwd=LgadWhV6VaoJHk09T3kRth1v61aA79.1) hosted by Mike Fowler. It will be recorded and made available afterwards on the [RDN Youtube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
+
+The Zoom link again (copy and paste): https://swanseauniversity.zoom.us/j/92171014107?pwd=LgadWhV6VaoJHk09T3kRth1v61aA79.1
+
+# By the way
+
+We aim to have seminars on every last Wednesday of the month. If you have any suggestions for future speakers, please let us know. We will alternate the time of the seminars to accommodate different time zones.
