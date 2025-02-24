@@ -2,7 +2,7 @@
 title: "Jean-François Arnoldi Seminar"
 description: "Jean-François Arnoldi will talk about Linear functional ecology: Rethinking species contributions to ecosystem functions"
 author: "Admin"
-date: "2025-01-06"
+date: "2025-02-24"
 draft: false
 ---
 
