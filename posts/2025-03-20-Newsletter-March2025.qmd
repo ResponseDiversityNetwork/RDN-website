@@ -1,0 +1,56 @@
+---
+title: "Newsletter March 2025"
+description: "The March 2025 Newsletter, with updates of activities over the last few months, and how to get involved."
+author: "Admin"
+date: "2025-03-20"
+draft: true
+---
+
+\
+
+::: columns
+::: {.column width="40%"}
+![](../assets/images/spring-2024-okinawa.jpeg){width="300"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
+\
+Left is a photo of from Spring 2024 in Okinawa.
+:::
+:::
+
+
+# Membership
+
+Our numbers have grown again! This happened despite the Steering Committee focusing mainly on other activities, rather than putting large efforts into recruiting new members! ***How to get involved***: If you have the opportunity, please publicise the network. You could grab a relevant slide from [slides Sam made available](../posts/2023-03-01-RDN-at-ESJ.qmd). [Get various versions of the logo from here](https://github.com/ResponseDiversityNetwork/RDN-website/tree/main/assets/logo).
+
+*We made a new map of our members!* You can view it [here](https://response-diversity-network.shinyapps.io/Map_of_RDN_Members/). Suggestions of how to improve it are welcome. **If you're not on the map, please let us know your location so we can add you. If you are on the map, please check that your location is correct.**
+
+# Seminars
+
+The seminar series is going well! We've had a few seminars so far, and they've been great. You can view the recordings of the seminars on the [RDN YouTube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
+
+***How to get involved***: please let us know if you'd be interested in being one of the first speakers (30-45 minute talks, as suits you!).
+
+***How to host a seminar***: It is great when members volunteer to host a seminar. If you're interested, please reach out to Sam or Owen. We can help you with the technical side of things, and we can also help you with the promotion of the seminar. Here are some [rough guidelines]() on what you'd need to do.
+
+
+# Positioning paper
+
+##### Update please, if desired #####
+
+# Get together -- response diversity at 2025 meetings
+
+A great way for us to meet up is to organise sessions at conferences. We are looking for 
+
+- [BES Annual Meeting, Edinburgh, 15-18th December 2025](https://www.britishecologicalsociety.org/content/bes-annual-meeting-2025/) (call for session opens March-ish??)
+- [ESA Annual Meeting, Baltimore, 10-15th August 2025](https://esa.org/baltimore2025/) (too late to submit session proprosals or abstracts)
+- [GfÖ Annual Meeting, Würzburg, 1-5th September 2025](https://www.gfoe-conference.de/) (no sessions defined in advance; abstract submission to begin mid-March -- deadline 30th April)
+
+
+
