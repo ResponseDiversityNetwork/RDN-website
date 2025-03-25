@@ -10,7 +10,7 @@ draft: false
 
 ::: columns
 ::: {.column width="40%"}
-![](../assets/images/spring-2024-okinawa.jpeg){width="300"}
+![](../assets/images/spring-2024-Okinawa.jpg){width="300"}
 :::
 
 ::: {.column width="10%"}
@@ -26,15 +26,13 @@ Left is a photo of from Spring 2024 in Okinawa.
 
 # Marie Curie Postdoctoral Fellowships
 
-The call for the [MSCA (Marie Curie) Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/calls/msca-postdoctoral-fellowships-2025) is opening soon, with the deadline in September 2025. These could be a great opportunity to maintain momentum across the network, by offering to host/exchange promising postdocs/PhDs ready to start their next positions in 2026. 
+The call for the [MSCA (Marie Curie) Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/calls/msca-postdoctoral-fellowships-2025) is opening soon, with the deadline in September 2025. These could be a great opportunity to maintain momentum across the network, by offering to host/exchange promising postdocs/PhDs ready to start their next positions in 2026.
 
-There are a few different flavours of the scheme – encouraging movement within the EU and into the EU from anywhere outside, and one allowing 12-24 months anywhere in the world with a final 12 months back in Europe. They also explicitly include non-academic sectors, so I think that covers most/all of our members' situations across the whole network.
+There are a few different flavours of the scheme -- encouraging movement within the EU and into the EU from anywhere outside, and one allowing 12-24 months anywhere in the world with a final 12 months back in Europe. They also explicitly include non-academic sectors, so I think that covers most/all of our members' situations across the whole network.
 
 One idea is use the group work emerging from Okinawa as the basis for some of the proposals.
 
 If you're interested in exploring possibilities, please contact Owen, Sam, or Mike Fowler, or indeed any other members of the network (you can find them in the new members map below!)
-
-
 
 # Congratulations to Sam and Takehiro
 
@@ -52,12 +50,9 @@ Our numbers have grown again! This happened despite the Steering Committee focus
 
 The seminar series is going well! We've had a few seminars so far, and they've been great. You can view the recordings of the seminars on the [RDN YouTube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
 
-
 ***How to get involved***: please let us know if you'd be interested in being one of the first speakers (30-45 minute talks, as suits you!).
 
-
 ***How to host a seminar***: It is great when members volunteer to host a seminar. If you're interested, please reach out to Sam or Owen. We can help you with the technical side of things, and we can also help you with the promotion of the seminar. Here are some [rough guidelines]() on what you'd need to do.
-
 
 # Get together -- response diversity at 2025 meetings
 
