@@ -37,11 +37,8 @@
   --quarto-font-monospace: "Hack-Regular", monospace;
 }
 
+/* syntax highlight based on Pandoc's rules */
 pre > code.sourceCode > span {
-  color: #F8F8FA;
-}
-
-code span {
   color: #F8F8FA;
 }
 
@@ -54,156 +51,191 @@ div.sourceCode pre.sourceCode {
   color: #F8F8FA;
 }
 
-code span.ot {
-  color: #DCDCE6;
-  font-style: inherit;
+/* Normal */
+code span {
+  color: #F8F8FA;
 }
 
-code span.at {
-  color: #B062FF;
-  font-style: inherit;
-}
-
-code span.ss {
-  color: #00E673;
-  font-style: inherit;
-}
-
-code span.an {
-  color: #DCDCE6;
-  font-style: inherit;
-}
-
-code span.fu {
-  color: #2C95FF;
-  font-style: inherit;
-}
-
-code span.st {
-  color: #00E673;
-  font-style: inherit;
-}
-
-code span.cf {
-  color: #FF962C;
-  font-style: inherit;
-}
-
-code span.op {
-  color: #DCDCE6;
-  font-style: inherit;
-}
-
-code span.er {
-  color: #FF2B95;
-  font-style: inherit;
-}
-
-code span.bn {
-  color: #FF2B95;
-  font-style: inherit;
-}
-
+/* Alert */
 code span.al {
   color: #FF2B95;
   font-style: inherit;
 }
 
-code span.va {
-  color: #F8F8FA;
-  font-style: inherit;
-}
-
-code span.bu {
-  font-style: inherit;
-}
-
-code span.ex {
-  font-style: inherit;
-}
-
-code span.pp {
-  color: #FF2B95;
-  font-style: inherit;
-}
-
-code span.in {
+/* Annotation */
+code span.an {
   color: #DCDCE6;
   font-style: inherit;
 }
 
-code span.vs {
-  color: #00E673;
-  font-style: inherit;
-}
-
-code span.wa {
-  color: #DCDCE6;
-  font-style: italic;
-}
-
-code span.do {
-  color: #DCDCE6;
-  font-style: italic;
-}
-
-code span.im {
+/* Attribute */
+code span.at {
   color: #B062FF;
   font-style: inherit;
 }
 
+/* BaseN */
+code span.bn {
+  color: #FF2B95;
+  font-style: inherit;
+}
+
+/* BuiltIn */
+code span.bu {
+  font-style: inherit;
+}
+
+/* ControlFlow */
+code span.cf {
+  color: #FF962C;
+  font-style: inherit;
+}
+
+/* Char */
 code span.ch {
   color: #00E673;
   font-style: inherit;
 }
 
-code span.dt {
-  color: #FF2B95;
-  font-style: inherit;
-}
-
-code span.fl {
-  color: #FF2B95;
-  font-style: inherit;
-}
-
-code span.co {
-  color: #DCDCE6;
-  font-style: inherit;
-}
-
-code span.cv {
-  color: #DCDCE6;
-  font-style: italic;
-}
-
+/* Constant */
 code span.cn {
   color: #FF962C;
   font-style: inherit;
 }
 
-code span.sc {
+/* Comment */
+code span.co {
   color: #DCDCE6;
   font-style: inherit;
 }
 
+/* CommentVar */
+code span.cv {
+  color: #DCDCE6;
+  font-style: italic;
+}
+
+/* Documentation */
+code span.do {
+  color: #DCDCE6;
+  font-style: italic;
+}
+
+/* DataType */
+code span.dt {
+  color: #FF2B95;
+  font-style: inherit;
+}
+
+/* DecVal */
 code span.dv {
   color: #FF2B95;
   font-style: inherit;
 }
 
+/* Error */
+code span.er {
+  color: #FF2B95;
+  font-style: inherit;
+}
+
+/* Extension */
+code span.ex {
+  font-style: inherit;
+}
+
+/* Float */
+code span.fl {
+  color: #FF2B95;
+  font-style: inherit;
+}
+
+/* Function */
+code span.fu {
+  color: #2C95FF;
+  font-style: inherit;
+}
+
+/* Import */
+code span.im {
+  color: #B062FF;
+  font-style: inherit;
+}
+
+/* Information */
+code span.in {
+  color: #DCDCE6;
+  font-style: inherit;
+}
+
+/* Keyword */
+code span.kw {
+  color: #F8F8FA;
+  font-style: inherit;
+}
+
+/* Operator */
+code span.op {
+  color: #DCDCE6;
+  font-style: inherit;
+}
+
+/* Other */
+code span.ot {
+  color: #DCDCE6;
+  font-style: inherit;
+}
+
+/* Preprocessor */
+code span.pp {
+  color: #FF2B95;
+  font-style: inherit;
+}
+
+/* RegionMarker */
 code span.re {
   color: #2C95FF;
   font-style: inherit;
 }
 
-code span.kw {
+/* SpecialChar */
+code span.sc {
+  color: #DCDCE6;
+  font-style: inherit;
+}
+
+/* SpecialString */
+code span.ss {
+  color: #00E673;
+  font-style: inherit;
+}
+
+/* String */
+code span.st {
+  color: #00E673;
+  font-style: inherit;
+}
+
+/* Variable */
+code span.va {
   color: #F8F8FA;
   font-style: inherit;
+}
+
+/* VerbatimString */
+code span.vs {
+  color: #00E673;
+  font-style: inherit;
+}
+
+/* Warning */
+code span.wa {
+  color: #DCDCE6;
+  font-style: italic;
 }
 
 .prevent-inlining {
   content: "</";
 }
 
-/*# sourceMappingURL=a4fb1ba901cf291ec0956bcdef3347c9.css.map */
+/*# sourceMappingURL=9fd362d7486101def0dff51fe84a31a0.css.map */

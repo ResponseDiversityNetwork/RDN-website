@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/posts.html",
     "items": [
+      "/posts/2025-06-20-Clark.html",
       "/posts/2025-02-24-DeLaender.html",
       "/posts/2025-03-20-Newsletter-March2025.html",
       "/posts/2023-11-27-seminar-host-guidelines.html",
@@ -21,8 +22,9 @@
     ]
   },
   {
-    "listing": "/posts.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2025-06-20-Clark.html",
       "/posts/2025-02-24-DeLaender.html",
       "/posts/2025-03-20-Newsletter-March2025.html",
       "/posts/2023-11-27-seminar-host-guidelines.html",
