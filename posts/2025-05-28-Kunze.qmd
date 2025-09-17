@@ -10,7 +10,7 @@ draft: false
 
 ::: columns
 ::: {.column width="40%"}
-![](../assets/images/kunze.png){width="200"}
+![](../assets/images/CKunze.png){width="200"}
 :::
 
 ::: {.column width="10%"}
