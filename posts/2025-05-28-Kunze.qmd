@@ -1,0 +1,39 @@
+---
+title: "Charlotte Kunze Seminar"
+description: "Charlotte Kunze will talk about Mechanistic insights into the biodiversity-stability relationship: how species responses shape ecological stability"
+author: "Admin"
+date: "2025-05-28"
+draft: false
+---
+
+\
+
+::: columns
+::: {.column width="40%"}
+![](../assets/images/kunze.png){width="200"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
+\
+Dr. Charlotte will give an online presentation on Wednesday 28th May at 10:00-11:00 CEST. Dr Charlotte Kunze is a Postdoctoral Researcher in the Theory in Biodiversity Science group at the German Centre for Integrative Biodiversity Research (iDiv). Her work combines empirical studies and computational models to explore how species and their interactions shape ecosystem stability under environmental change.
+:::
+:::
+
+# Mechanistic insights into the biodiversity-stability relationship: how species responses shape ecological stability
+
+Ecosystems worldwide are experiencing a variety of natural and anthropogenic disturbances, many of which are intensifying as global change accelerates. The capacity of ecological communities to withstand such disturbances often hinges on the diverse responses of their constituent species. This response diversity can help buffer environmental change and lead to greater emergent stability than would be expected from species in isolation. This talk focuses on the mechanisms that drive community stability, separating species contributions to ecological stability from the effects of biodiversity. Using model simulations, meta-analysis, and empirical data from phytoplankton experiments, I will demonstrate how species interactions and the type of disturbance regimes influence the upscaling of species-level responses to community-level stability.
+
+# The details
+
+When: Wednesday 28th May at 10:00-11:00 CEST (09:00 UK, 17:00 Japan, 04:00 Eastern, 01:00 Pacific, 08:00 UTC) Where: The seminar will be held on Zoom [click here](https://oist.zoom.us/j/3604469169?pwd=VzZKVVBRMEFLdnV0eUF3SmRXNVpQZz09) hosted by Sam Ross. It will be recorded and made available afterwards on the [RDN Youtube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
+
+The Zoom link again (copy and paste): https://oist.zoom.us/j/3604469169?pwd=VzZKVVBRMEFLdnV0eUF3SmRXNVpQZz09
+
+# By the way
+
+We aim to have seminars on every last Wednesday of the month. If you have any suggestions for future speakers, please let us know. We will alternate the time of the seminars to accommodate different time zones.
