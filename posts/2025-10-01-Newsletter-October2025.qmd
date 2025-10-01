@@ -1,0 +1,58 @@
+---
+title: "Newsletter March 2025"
+description: "The March 2025 Newsletter, with updates of activities over the last few months, and how to get involved."
+author: "Admin"
+date: "2025-03-20"
+draft: false
+---
+
+\
+
+::: columns
+::: {.column width="40%"}
+![](../assets/images/Gentiana.jpg){width="300"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
+\
+Left is a photo of a Gentian in the Swiss Alps.
+:::
+:::
+
+# Results from our expert survey on response diversity
+
+In September 2023, we conducted an expert survey of response diversity researchers. [Version 2 of our manuscript is now available as a bioRxiv preprint](doi.org/10.1101/2025.09.17.676972). We found that experts didn’t agree on the definition of response diversity or on the dimension(s) of ecological stability to which response diversity might relate. Experts identified multiple environmental stressors, including species interactions in response diversity studies, and inconsistent definitions and methods as major challenges facing the field. Yet, there was broad agreement that coordinating research through syntheses, workshops, and distributed experiments would be beneficial, providing an agenda for the Response Diversity Network in the coming years. Thank you to all of you who responded to the survey and contributed to this work.
+
+# BES Thematic Session on response diversity
+
+For those attending the [annual meeting of the British Ecological Society in Edinburgh this December](https://www.britishecologicalsociety.org/content/bes-annual-meeting-2025/agenda/), Charlotte Kunze and Francesco Polazzo will host a Thematic Session on “Insurance in ecosystems: exploring the role of response diversity across scales”. They have some excellent speakers lined up and Thematic Sessions are key events during the meeting, so we expect lively discussion. Please do join us for what promises to be a great session, and why not also join us for dinner, drinks, or activities throughout the week. Most of the Steering Committee will attend, as will various other members of the Network. We’re looking forward to seeing you there 15-18 December.
+
+# RDN Members Seminar series
+
+Thank you to all who have attended the RDN Members Seminar series LIVE, watched back on the [RDN YouTube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg), and especially to those who have given talks. Recent talks include Francesco de Bello, Adam Clark, and Charlotte Kunze, bringing our total up to 17 talks available to view on YouTube. Please do check them out. Next month, Meghna Krishnadas will present (details TBD). 
+
+*How to get involved*: please let us know if you’d be interested in being one of the first speakers (30-45 minute talks, as suits you!).
+How to host a seminar: It is great when members volunteer to host a seminar. If you’re interested, please reach out to Sam or Owen. We can help you with the technical side of things, and we can also help you with the promotion of the seminar. 
+
+# Expanding our Steering Committee
+
+We are looking for more diverse global representation on our steering committee and will follow up with an invitation for interested applicants. We may also enlist a communications officer to launch a social media account, but have not decided yet whether this is a worthwhile investment. Please keep an eye out for these opportunities in the coming months.
+
+# New members
+
+We’ve hit 120 members! Thank you all for spreading the word and welcome to all our new additions. Our most recent members include Misha Tseitlin (University of Cambridge, UK), Amit Samadder (Indian Statistical Institute, India), and Dominique Gravel and Alexandre Fuster Calvo (Université de Sherbrooke, Canada). Welcome!
+
+*We made a new map of our members!* You can view it [here](https://response-diversity-network.shinyapps.io/Map_of_RDN_Members/) and see if there are other members of the Network near you. Suggestions for how to improve the map are welcome. If you’re not on the map or your location or affiliation is incorrect/outdated, please let us know your location so we can add you.
+
+*How to get involved*: If you have the opportunity, please publicise the network. You could grab a relevant slide from [slides Sam made available](https://responsediversitynetwork.github.io/RDN-website/posts/2023-03-01-RDN-at-ESJ.html). Get various versions of the logo from [here](https://github.com/ResponseDiversityNetwork/RDN-website/tree/main/assets/logo).
+
+That’s all for now. We hope to see you sometime in the coming months. 
+
+Sam, Owen, Ceres, Laura, Mike, Takehiro, and Hannah
+
+
