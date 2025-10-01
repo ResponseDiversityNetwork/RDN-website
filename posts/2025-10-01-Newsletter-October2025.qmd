@@ -2,7 +2,7 @@
 title: "Newsletter March 2025"
 description: "The March 2025 Newsletter, with updates of activities over the last few months, and how to get involved."
 author: "Admin"
-date: "2025-03-20"
+date: "2025-10-25"
 draft: false
 ---
 
@@ -10,7 +10,7 @@ draft: false
 
 ::: columns
 ::: {.column width="40%"}
-![](../assets/images/Gentiana.jpg){width="300"}
+![](../assets/images/Gentiana.JPG){width="300"}
 :::
 
 ::: {.column width="10%"}
