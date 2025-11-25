@@ -4,6 +4,7 @@ description: "Pete Manning will talk about Linking biodiversity and land use cha
 author: "Admin"
 date: "2025-11-25"
 draft: false
+categories: ['seminar']
 ---
 
 \
@@ -26,8 +27,7 @@ Prof. Pete Manning will give an online presentation on *Wednesday 26th November 
 
 # Linking biodiversity and land use changes to societal impacts
 
-Ecologists lack tools for quantitatively demonstrating how changes to ecosystems impact the social system that depends upon them. This limits our capacity to predict, demonstrate and minimise the impact of environmental change and biodiversity loss. In this talk I will show how metrics such as ecosystem service multifunctionality, the supply of multiple ecosystem services relative to human demand, can link biodiversity and land use change to stakeholder communities. This will be illustrated with examples from the large-scale and long-term German Biodiversity Exploratories and Kilimanjaro Social Ecological System (Kili-SES) projects. 
-
+Ecologists lack tools for quantitatively demonstrating how changes to ecosystems impact the social system that depends upon them. This limits our capacity to predict, demonstrate and minimise the impact of environmental change and biodiversity loss. In this talk I will show how metrics such as ecosystem service multifunctionality, the supply of multiple ecosystem services relative to human demand, can link biodiversity and land use change to stakeholder communities. This will be illustrated with examples from the large-scale and long-term German Biodiversity Exploratories and Kilimanjaro Social Ecological System (Kili-SES) projects.
 
 # The details
 
@@ -35,7 +35,7 @@ When: Wednesday 26th November at 10:00-11:00 CET (09:00 UK, 18:00 Japan, 04:00 E
 
 Where: The seminar will be held on Zoom ([click here](https://oist.zoom.us/j/3604469169?pwd=VzZKVVBRMEFLdnV0eUF3SmRXNVpQZz09)) hosted by Sam Ross. It will be recorded and made available afterwards on the [RDN Youtube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
 
-Zoom link again: https://oist.zoom.us/j/3604469169?pwd=VzZKVVBRMEFLdnV0eUF3SmRXNVpQZz09 
+Zoom link again: https://oist.zoom.us/j/3604469169?pwd=VzZKVVBRMEFLdnV0eUF3SmRXNVpQZz09
 
 # By the way
 
