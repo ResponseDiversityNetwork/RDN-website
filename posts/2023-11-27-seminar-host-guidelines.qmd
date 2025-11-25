@@ -4,6 +4,7 @@ description: "Guidelines on how to host a virtual seminar in the RDN seminar ser
 author: "Admin"
 date: "2025-03-20"
 draft: false
+categories: ['Resource']
 ---
 
 \

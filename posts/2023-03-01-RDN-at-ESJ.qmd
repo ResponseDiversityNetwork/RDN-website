@@ -3,7 +3,7 @@ title: "RDN @ ESJ"
 description: "Sam Ross represented the network at the annual meeting of the Ecological Society of Japan"
 author: "Admin"
 date: "2023-03-01"
+categories: ['Meeting']
 ---
 
-Sam presented about the Response Diversity Network (RDN) at the annual meeting of the Ecological Society of Japan (ESJ).
-[His presentation is here as a power point](../assets/presentations/Slides_SR_ESJ_2023.pptx), and [here as a pdf](../assets/presentations/Slides_SR_ESJ_2023.pdf).
+Sam presented about the Response Diversity Network (RDN) at the annual meeting of the Ecological Society of Japan (ESJ). [His presentation is here as a power point](../assets/presentations/Slides_SR_ESJ_2023.pptx), and [here as a pdf](../assets/presentations/Slides_SR_ESJ_2023.pdf).
