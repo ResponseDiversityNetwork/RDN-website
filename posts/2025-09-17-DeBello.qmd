@@ -4,7 +4,7 @@ description: "Francesco De Bello will talk about Functional trait effects on eco
 author: "Admin"
 date: "2025-09-24"
 draft: false
-categories: ['seminar']
+categories: ['Seminar']
 ---
 
 \

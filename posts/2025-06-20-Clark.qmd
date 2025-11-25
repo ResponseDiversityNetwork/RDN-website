@@ -4,7 +4,7 @@ description: "Adam Clark will talk about When is response diversity relevant in 
 author: "Admin"
 date: "2025-06-20"
 draft: false
-categories: ['seminar']
+categories: ['Seminar']
 ---
 
 \

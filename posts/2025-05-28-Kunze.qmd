@@ -4,7 +4,7 @@ description: "Charlotte Kunze will talk about Mechanistic insights into the biod
 author: "Admin"
 date: "2025-05-28"
 draft: false
-categories: ['seminar']
+categories: ['Seminar']
 ---
 
 \

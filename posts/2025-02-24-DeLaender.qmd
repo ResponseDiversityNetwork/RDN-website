@@ -4,7 +4,7 @@ description: "Frederik De Laender will talk about Is environmental change resear
 author: "Admin"
 date: "2025-04-24"
 draft: false
-categories: ['seminar']
+categories: ['Seminar']
 ---
 
 \

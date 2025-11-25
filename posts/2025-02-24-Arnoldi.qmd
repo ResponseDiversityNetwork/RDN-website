@@ -4,7 +4,7 @@ description: "Jean-François Arnoldi will talk about Linear functional ecology: 
 author: "Admin"
 date: "2025-02-24"
 draft: false
-categories: ['seminar']
+categories: ['Seminar']
 ---
 
 \

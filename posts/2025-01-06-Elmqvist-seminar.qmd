@@ -4,7 +4,7 @@ description: "Thomas Elmqvist will talk about response diversity as a sustainabi
 author: "Admin"
 date: "2025-01-06"
 draft: false
-categories: ['seminar']
+categories: ['Seminar']
 ---
 
 \
