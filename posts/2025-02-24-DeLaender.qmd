@@ -4,11 +4,12 @@ description: "Frederik De Laender will talk about Is environmental change resear
 author: "Admin"
 date: "2025-04-24"
 draft: false
+categories: ['seminar']
 ---
 
 \
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](../assets/images/DeLaender.png){width="200"}
 :::
@@ -20,9 +21,9 @@ draft: false
 ::: {.column width="40%"}
 ![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
 \
-Prof. Frederik De Laender will give an online presentation on Wednesday 30th April at 11:00-12:00 CEST. Frederik is a Professor at the University of Namur in Belgium. His interests span coexistence and stability, eco-evolutionary feedbacks, and the consequences of multivariate environmental change and biodiversity change for functioning. He will provocatively ask, "Is environmental change research a mess?" and I look forward to his answer! 
+Prof. Frederik De Laender will give an online presentation on Wednesday 30th April at 11:00-12:00 CEST. Frederik is a Professor at the University of Namur in Belgium. His interests span coexistence and stability, eco-evolutionary feedbacks, and the consequences of multivariate environmental change and biodiversity change for functioning. He will provocatively ask, "Is environmental change research a mess?" and I look forward to his answer!
 :::
-:::
+::::::
 
 # Is environmental change research a mess?
 

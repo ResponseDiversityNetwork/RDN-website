@@ -4,11 +4,12 @@ description: "The April 2023 Newsletter, with updates of activities over the las
 author: "Admin"
 date: "2023-04-01"
 draft: false
+categories: ['Newsletter']
 ---
 
 \
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](../assets/images/blossom_April_2023.jpg){width="300"}
 :::
@@ -26,7 +27,7 @@ draft: false
 \
 Left is a photo of spring blossom in Japan, taken by Sam.
 :::
-:::
+::::::
 
 # Membership
 

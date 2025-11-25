@@ -4,11 +4,12 @@ description: "Meghna Krishnadas will talk about the relative and interactive rol
 author: "Admin"
 date: "2025-10-26"
 draft: false
+categories: ['seminar']
 ---
 
 \
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](../assets/images/Krishnadas.png){width="180"}
 :::
@@ -21,9 +22,8 @@ draft: false
 ![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
 \
 Dr. Meghna Krishnadas will give an online presentation on Thursday 30th October at 08:30-09:30 IST. Meghna leads the Community and Functional Ecology (CaFE) lab at the National Centre for Biological Sciences in India, where she works on plant functional traits, biotic and abiotic environmental constraints on community assembly and dynamics, and demographic rates, among other interests. In her talk, she will discuss demographic responses to joint abiotic and biotic drivers. I look forward to finding out more!
-
 :::
-:::
+::::::
 
 # The relative and interactive roles of abiotic and biotic drivers on demographic responses of plants
 
@@ -35,7 +35,7 @@ When: Thursday 30th October at 08:30-09:30 IST (03:00 UK, 12:00 Japan, 23:00 Eas
 
 Where: The seminar will be held on Zoom [click here](https://unimelb.zoom.us/j/82032964114?pwd=t4bQF44pWur0e6M2DXT48uwHhetled.1) hosted by Giulia Ghedini as part of "PopBio on the Dark Side". It will be recorded and made available afterwards on the [RDN Youtube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
 
-Zoom link: https://unimelb.zoom.us/j/82032964114?pwd=t4bQF44pWur0e6M2DXT48uwHhetled.1 
+Zoom link: https://unimelb.zoom.us/j/82032964114?pwd=t4bQF44pWur0e6M2DXT48uwHhetled.1
 
 # By the way
 

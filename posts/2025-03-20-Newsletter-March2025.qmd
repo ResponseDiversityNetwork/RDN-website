@@ -4,11 +4,12 @@ description: "The March 2025 Newsletter, with updates of activities over the las
 author: "Admin"
 date: "2025-03-20"
 draft: false
+categories: ['Newsletter']
 ---
 
 \
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](../assets/images/spring-2024-Okinawa.jpg){width="300"}
 :::
@@ -22,7 +23,7 @@ draft: false
 \
 Left is a photo of from Spring 2024 in Okinawa.
 :::
-:::
+::::::
 
 # Marie Curie Postdoctoral Fellowships
 

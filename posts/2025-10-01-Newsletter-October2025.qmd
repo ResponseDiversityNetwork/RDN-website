@@ -4,11 +4,12 @@ description: "The March 2025 Newsletter, with updates of activities over the las
 author: "Admin"
 date: "2025-10-25"
 draft: false
+categories: ['Newsletter']
 ---
 
 \
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](../assets/images/Gentiana.JPG){width="300"}
 :::
@@ -22,7 +23,7 @@ draft: false
 \
 Left is a photo of a Gentian in the Swiss Alps.
 :::
-:::
+::::::
 
 # Results from our expert survey on response diversity
 
@@ -48,12 +49,11 @@ We are looking for more diverse global representation on our steering committee 
 
 We are also considering appointing a communications officer to launch a social media account. In the meantime though, feel free to use the hashtag *#RespDivNet* on your social media posts related to response diversity. Please keep an eye out for these opportunities in the coming months and be confident in putting yourselves forward!
 
-
 # New members
 
 We’ve hit 120 members! This feels like a fantastic achievement, thank you all for spreading the word and a warm welcome to all our new network members. Our most recent members include Misha Tseitlin (University of Cambridge, UK), Amit Samadder and Sagar Karmakar (Indian Statistical Institute, India), and Dominique Gravel and Alexandre Fuster Calvo (Université de Sherbrooke, Canada). We look forward to meeting you at online seminars or in-person events, and welcome any suggestions for network activities you’d like to propose.
 
-*We made a new map of our members!* You can view it [here](https://response-diversity-network.shinyapps.io/Map_of_RDN_Members/) and see if there are other members of the Network near you. Suggestions for how to improve the map are also welcome. If you’re not on the map or your location or affiliation is incorrect/outdated, please let us know your location so we can add/update your details. 
+*We made a new map of our members!* You can view it [here](https://response-diversity-network.shinyapps.io/Map_of_RDN_Members/) and see if there are other members of the Network near you. Suggestions for how to improve the map are also welcome. If you’re not on the map or your location or affiliation is incorrect/outdated, please let us know your location so we can add/update your details.
 
 *How to get involved*: If you have the opportunity, please publicise the network. You could grab a relevant slide from [slides Sam made available](https://responsediversitynetwork.github.io/RDN-website/posts/2023-03-01-RDN-at-ESJ.html). Get various versions of the logo from [here](https://github.com/ResponseDiversityNetwork/RDN-website/tree/main/assets/logo).
 

@@ -4,11 +4,12 @@ description: "Jean-François Arnoldi will talk about Linear functional ecology: 
 author: "Admin"
 date: "2025-02-24"
 draft: false
+categories: ['seminar']
 ---
 
 \
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](../assets/images/Arnoldi.png){width="200"}
 :::
@@ -20,9 +21,9 @@ draft: false
 ::: {.column width="40%"}
 ![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
 \
-Dr. Jean-François Arnoldi will give an online presentation on Wednesday 26th February at 15:00-16:00 CET. JF is a Researcher at Sete (Theoretical and Experimental Ecology Station), CNRS, in France. With his background in mathematics (specifically chaotic dynamics), JF has since turned his attention to the assembly, stability, and functioning of ecological communities. He will talk about species' contributions to ecosystem functions. 
+Dr. Jean-François Arnoldi will give an online presentation on Wednesday 26th February at 15:00-16:00 CET. JF is a Researcher at Sete (Theoretical and Experimental Ecology Station), CNRS, in France. With his background in mathematics (specifically chaotic dynamics), JF has since turned his attention to the assembly, stability, and functioning of ecological communities. He will talk about species' contributions to ecosystem functions.
 :::
-:::
+::::::
 
 # Linear functional ecology: Rethinking species contributions to ecosystem functions
 

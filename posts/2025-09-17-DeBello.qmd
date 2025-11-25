@@ -4,11 +4,12 @@ description: "Francesco De Bello will talk about Functional trait effects on eco
 author: "Admin"
 date: "2025-09-24"
 draft: false
+categories: ['seminar']
 ---
 
 \
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](../assets/images/debello.png){width="200"}
 :::
@@ -22,7 +23,7 @@ draft: false
 \
 Dr. Francesco De Bello will give an online presentation on Wednesday 24th September at 10:00-11:00 CEST. Francesco is a senior plant ecologist and agronomist at the Desertification Research Center (CSIC), Spain, and Associate Professor at the University of South Bohemia. He works on functional trait diversity, climate and land-use change impacts, ecological stability, and ecosystem services, combining field, greenhouse, and modelling approaches.
 :::
-:::
+::::::
 
 # Functional trait effects on ecosystem stability: assembling the jigsaw puzzle
 

@@ -4,11 +4,12 @@ description: "Adam Clark will talk about When is response diversity relevant in 
 author: "Admin"
 date: "2025-06-20"
 draft: false
+categories: ['seminar']
 ---
 
 \
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](../assets/images/Clark.png){width="200"}
 :::
@@ -22,7 +23,7 @@ draft: false
 \
 Dr. Adam Clark will give an online presentation on Wednesday 25th May at 18:00-19:00 CEST. Adam is an Associate Professor in the Department of Biology at the University of Graz, Austria. His interests broadly include mathematical theory, field-based natural history, and predictive models of communities. In his talk, Adam will ask when response diversity is relevant for single pulse perturbation.
 :::
-:::
+::::::
 
 # When is response diversity relevant in relation to single pulse perturbations?
 

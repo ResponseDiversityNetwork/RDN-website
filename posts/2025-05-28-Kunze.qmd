@@ -4,11 +4,12 @@ description: "Charlotte Kunze will talk about Mechanistic insights into the biod
 author: "Admin"
 date: "2025-05-28"
 draft: false
+categories: ['seminar']
 ---
 
 \
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](../assets/images/CKunze.png){width="200"}
 :::
@@ -22,7 +23,7 @@ draft: false
 \
 Dr. Charlotte will give an online presentation on Wednesday 28th May at 10:00-11:00 CEST. Dr Charlotte Kunze is a Postdoctoral Researcher in the Theory in Biodiversity Science group at the German Centre for Integrative Biodiversity Research (iDiv). Her work combines empirical studies and computational models to explore how species and their interactions shape ecosystem stability under environmental change.
 :::
-:::
+::::::
 
 # Mechanistic insights into the biodiversity-stability relationship: how species responses shape ecological stability
 

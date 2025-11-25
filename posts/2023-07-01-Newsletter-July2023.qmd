@@ -4,11 +4,12 @@ description: "The July 2023 Newsletter, with updates of activities over the last
 author: "Admin"
 date: "2023-07-23"
 draft: false
+categories: ['Newsletter']
 ---
 
 \
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](../assets/images/Alps_Owen.jpeg){width="300"}
 :::
@@ -22,7 +23,7 @@ draft: false
 \
 Left is a photo of summer in the Alps.
 :::
-:::
+::::::
 
 # Scope of network
 
