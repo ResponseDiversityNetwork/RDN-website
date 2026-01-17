@@ -1,0 +1,49 @@
+---
+title: "Dominique Gravel Seminar"
+description: "Dominique Gravel will talk about Anticipating ecological disruptions with measurement of network coherence"
+author: "Admin"
+date: "2026-01-28"
+draft: false
+categories: ['seminar']
+---
+
+\
+
+:::::: columns
+::: {.column width="40%"}
+![](../assets/images/Gravel.png){width="200"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
+\
+Prof. Dominique Gravel will give an online presentation on **Wednesday 28th January at 13:00-14:00 EST**. Dominique is a theoretical ecologist interested in the distribution of biodiversity and its impact on ecosystem functioning.
+
+:::
+::::::
+
+
+He holds a Canada Research Chair in Integrative Ecology and is the director of observation network Biodiversité Québec. His research, at the crossroad between biogeography and community ecology, raises the fundamental question to what extent the distribution of biodiversity, and community ecology, are influencing the global distribution of ecosystem productivity. He performs his research using mathematical modelling, data analysis and experimental studies in various ecosystems, including Arctic food webs, carnivorous plants and forest trees. I look forward to finding out more!
+
+
+
+# Anticipating ecological disruptions with measurement of network coherence
+
+Biodiversity is more than the distribution of individual species, it is also the collection of interactions among them driving ecosystem processes and supporting diversification of life. Reporting how diverse ecological ecological networks respond to environmental change is however a major challenge for biodiversity monitoring. In this presentation I will introduce the concept of Ecological Network Coherence (ENC) to describe the complex distribution of responses of a community to an environmental change such as temperature. I will first develop intuition on the importance of ENC using analytical food web models. High coherence indicates that species respond similarly and therefore the community should maintain its internal dynamics and functions; alternatively, incoherence induces community re-organization and could lead to disruption of its functioning. Followingly, I will illustrate this approach with two empirical systems: a tropical pollination network, where interacting mutualists were more coherent in their temperature responses than the broader community, and a marine food web, where coherence in abundance trends shifted during collapse. These results point to the importance of further exploring ENC distributions as potential early-warning indicators of ecological disruption. The ENC formalism provides novel quantitative tools to go beyond the simplistic univariate assessment of biodiversity changes. I will discuss its relevance for monitoring and projection of biodiversity changes following the new Global framework for biodiversity.
+
+
+# The details
+
+When: Wednesday 28th January at 13:00-14:00 Eastern (19:00 CET, 18:00 UK, 03:00 Japan, 10:00 Pacific, 18:00 UTC). 
+
+Where: The seminar will be held on Zoom ([click here](https://ubc.zoom.us/j/61782644668?pwd=TzoqgvU5A2PpOZ2Pj7H4PVKhqmEO4S.1)) hosted by Ceres Barros. It will be recorded and made available afterwards on the [RDN Youtube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
+
+Zoom link again: https://ubc.zoom.us/j/61782644668?pwd=TzoqgvU5A2PpOZ2Pj7H4PVKhqmEO4S.1
+
+# By the way
+
+We aim to have seminars on every last Wednesday of the month. If you have any suggestions for future speakers, please let us know. We will alternate the time of the seminars to accommodate different time zones.
