@@ -4,7 +4,7 @@ description: "Pete Manning will talk about Linking biodiversity and land use cha
 author: "Admin"
 date: "2025-11-25"
 draft: false
-categories: ['seminar']
+categories: ['Seminar']
 ---
 
 \

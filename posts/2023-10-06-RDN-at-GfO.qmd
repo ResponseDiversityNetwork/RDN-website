@@ -1,9 +1,10 @@
 ---
-title: "RDN-at-GfO"
+title: "RDN @ GfO"
 author: "Owen Petchey & Francesco Polazzo"
 description: "The network organised a symposium at the annual meeting of the GfO."
 date: "2023-10-13"
 draft: false
+categories: ['Meeting']
 ---
 
 # Response diversity: theory, observations, experiments, and applications
