@@ -1,0 +1,44 @@
+---
+title: "Kae Natsume Seminar"
+description: "Kae Natsume will talk about Pollination service under variable environments and the importance of diversity"
+author: "Admin"
+date: "2026-04-22"
+draft: false
+categories: ['Seminar']
+---
+
+\
+
+:::::: columns
+::: {.column width="40%"}
+![](../assets/images/Kae%20Natsume.png){width="200"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
+\
+Dr Kae Natsume will give an online presentation on **April 22th 2026 at 09:00-10:00 JST**. Kae is an ecologist and postdoctoral researcher at the University of Tokyo whose work focuses on biodiversity, pollination ecology, and the stability of ecosystem services in changing environments.
+:::
+::::::
+
+Kae Natsume is an ecologist and postdoctoral researcher at the University of Tokyo whose research explores how biodiversity supports resilient ecosystem functioning under environmental change, with a particular focus on pollination ecology and response diversity. Her work combines field ecology, biodiversity science, and ecosystem-service research to understand how different pollinator species respond to weather variability, landscape structure, and climate-related disturbances, and how these differences help stabilize crop pollination and other ecological functions. She has conducted influential research on buckwheat pollination in Japanese satoyama landscapes, highlighting the often-overlooked role of non-bee pollinators such as ants and flies in sustaining agricultural productivity. Natsume’s work has received recognition for advancing understanding of biodiversity’s role in food security and ecosystem resilience.
+
+# Pollination service under variable environments and the importance of diversity
+
+Pollination service to crops is one of the most vital gifts from ecosystems. I am going to present some of my research on the topic of pollination service with special emphasis on the importance of pollinator diversity. First, I am going to talk about our findings about ants, a somewhat neglected group of insects in comparison to bees, that are significantly contributing to common buckwheat pollination, particularly in small-scale farms. Then I am going to talk about how response diversity against temperature stabilizes pollination over multiple temporal scales. I argue that response diversity in smaller scales matters in some systems due to nonlinearity and it should be examined on multiple scales.
+
+# The details
+
+When: Wednesday 22nd April* at 09:00-10:00 JST (02:00 CET, 01:00 UK, 20:00 Eastern, 17:00 Pacific, 08:00 CST, 10:00 AEST). *Note this time is one week earlier than usual - i.e. this week.
+
+Where: The seminar will be held on Zoom ([click here](https://oist.zoom.us/j/3604469169?pwd=VzZKVVBRMEFLdnV0eUF3SmRXNVpQZz09)) hosted by Ceres Barros. It will be recorded and made available afterwards on the [RDN Youtube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
+
+Zoom link again: https://oist.zoom.us/j/3604469169?pwd=VzZKVVBRMEFLdnV0eUF3SmRXNVpQZz09
+
+# By the way
+
+We aim to have seminars on every last Wednesday of the month. If you have any suggestions for future speakers, please let us know. We will alternate the time of the seminars to accommodate different time zones.
