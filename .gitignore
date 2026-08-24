@@ -42,3 +42,5 @@ docs/
 .Renviron
 
 /.quarto/
+
+**/*.quarto_ipynb

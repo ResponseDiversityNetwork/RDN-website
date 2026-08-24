@@ -1,0 +1,76 @@
+---
+title: "Newsletter June 2026"
+description: "The June 2026 Newsletter, with updates of activities over the last few months, and how to get involved."
+author: "Admin"
+date: "2026-06-10"
+draft: true
+categories: ['Newsletter']
+---
+
+\
+
+:::::: columns
+::: {.column width="40%"}
+![](../assets/images/OIST_view.jpg){width="300"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
+\
+Left is [short caption for the newsletter image].
+:::
+::::::
+
+# Organisation change: new leadership team
+
+The Response Diversity Network is moving into a new phase, with a new leadership team helping to guide the network's activities over the coming years. We are very grateful to everyone who has contributed to the network so far, and excited to see how the new team will help support seminars, workshops, collaborative projects, and wider participation across the membership.
+
+One goal of this reorganisation is to allow for increased peer-to-peer communication, so that in the future you already know of and have a chance to get involved in activities before seeing them in a Newsletter like this.
+
+[Add details of the new leadership team, including names, roles, start date, and whether there will be an open call or invitation for further involvement.]
+
+# A new Doctoral Network
+
+We are pleased to share that plans are developing for a new Doctoral Network connected to response diversity research. This would provide opportunities for doctoral researchers to work across institutions, disciplines, and study systems, while strengthening links among members of the Response Diversity Network.
+
+[Add details of the Doctoral Network: title, funder or scheme, lead applicants, participating institutions, topic areas, timeline, and opportunities for RDN members to contribute.]
+
+# Application for an sDiv working group
+
+Members of the network are also developing an application for an sDiv working group focused on response diversity. If successful, this would provide a focused opportunity to bring together researchers working with different concepts, data sources, and analytical approaches, and to advance collaborative synthesis work within the network.
+
+[Add details of the proposed working group topic, lead applicants, application deadline, planned participants, intended outputs, and how the working group would connect to other RDN activities.]
+
+*How to get involved*: If you are interested in contributing to the application or joining the proposed working group, please let us know.
+
+# Okinawa workshop project coordination
+
+Several project ideas emerged from the Okinawa workshop, and coordination of those activities is continuing. The aim is to help connect interested participants, clarify next steps, and support the development of collaborative outputs from the discussions held there. Sam Ross is leading this. Moreover, the reorganisation of the RDN leadership should provide even better information flow and coordination of projects by members. More information to follow.
+
+[Add details of the projects, project leads, planned outputs, expected timeline, and how members who were not at the workshop might be able to get involved.]
+
+# Response diversity session at GfO in Odense
+
+The Response Diversity Network will also be represented at the GfO conference in Odense, where there will be a session connected to response diversity. This will be a good opportunity for members attending the meeting to connect in person, hear about current work in the field, and discuss possible next steps for research and collaboration.
+
+[Add details of the session title, conference dates, organisers, speakers, location within the programme, and any plans for an informal network meetup during the conference.]
+
+*How to get involved*: If you will be at GfO in Odense and would like to join the session, meet other members of the network, or help organise an informal gathering, please let us know.
+
+# Workshop in Switzerland in December: response diversity mapping
+
+A workshop on response diversity mapping will be held in Switzerland this December. The workshop will bring together researchers interested in how response diversity can be measured, mapped, compared, and communicated across systems and scales.
+
+[Add exact dates, location, organisers, funding source, participant details, registration or invitation process, and a short description of the planned workshop format.]
+
+*How to get involved*: Please keep an eye out for further information, and let us know if you are interested in contributing to this activity or related mapping work.
+
+That's all for now. We hope to see you sometime in the coming months!
+
+With best wishes from the Response Diversity Network Steering Committee
+
+[Add names]
