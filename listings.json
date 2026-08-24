@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/posts.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2026-08-24-Ghedini.html",
       "/posts/2026-04-22-Natsume.html",
       "/posts/2026-03-02-Oikos-expert-priorities.html",
       "/posts/2026-01-28-Gravel.html",
@@ -31,8 +32,9 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/posts.html",
     "items": [
+      "/posts/2026-08-24-Ghedini.html",
       "/posts/2026-04-22-Natsume.html",
       "/posts/2026-03-02-Oikos-expert-priorities.html",
       "/posts/2026-01-28-Gravel.html",
