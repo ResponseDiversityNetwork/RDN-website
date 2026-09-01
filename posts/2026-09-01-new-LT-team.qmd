@@ -1,0 +1,10 @@
+---
+title: "Leadership team and activities update"
+description: "The Response Diversity Network is moving into a new phase, with a new leadership team helping to guide the network's activities over the coming years."
+author: "Admin"
+date: "2026-06-10"
+draft: true
+categories: ['Newsletter']
+---
+
+Here we will describe the new leadership team and the activities that the network will be focusing on over the next few years. The new leadership team is made up of a diverse group of researchers from around the world, with expertise in a range of fields related to response diversity. The team will be responsible for guiding the network's activities, including organizing workshops and conferences, coordinating research projects, and developing new resources for the community.
