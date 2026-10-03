@@ -1,0 +1,44 @@
+---
+title: "Robert Junker Seminar"
+description: "Robert Junker will talk about mechanisms underlying ecological stability"
+author: "Admin"
+date: "2026-10-03"
+draft: false
+categories: ['Seminar']
+---
+
+\
+
+:::::: columns
+::: {.column width="40%"}
+![](../assets/images/Junker.png){width="300"}
+
+*Photo: Markus Farnung*
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}\
+\
+Prof. Dr. Robert R. Junker will give an online presentation on **Thursday 29th October at 12:15-13:15 CET**. Robert is based in the Department of Biology at Marburg University, Germany. In his talk, he will discuss mechanisms underlying ecological stability.
+:::
+::::::
+
+# Mechanisms underlying ecological stability
+
+Abstract to follow.
+
+# The details
+
+When: Thursday 29th October at 12:15-13:15 CET (Zurich time; 11:15 UK, 20:15 Japan, 07:15 Eastern, 04:15 Pacific, 11:15 UTC).
+
+Where: The seminar will be held on Zoom [click here](https://uzh.zoom.us/j/64390599791?pwd=MoADAJz6dJRRmHEu1pRdnxpMQPozU9.1). It will be recorded and made available afterwards on the [RDN Youtube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
+
+Zoom link: https://uzh.zoom.us/j/64390599791?pwd=MoADAJz6dJRRmHEu1pRdnxpMQPozU9.1
+
+# By the way
+
+We aim to have seminars on every last Wednesday of the month. If you have any suggestions for future speakers, please let us know. We will alternate the time of the seminars to accommodate different time zones.
