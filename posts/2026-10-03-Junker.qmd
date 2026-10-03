@@ -33,13 +33,15 @@ Abstract to follow.
 
 # The details
 
-When: Thursday 29th October at 12:15-13:15 CET (Zurich time; 11:15 UK, 20:15 Japan, 07:15 Eastern, 04:15 Pacific, 11:15 UTC).
+🕒 When: Thursday 29th October at 12:15-13:15 CET (Zurich time; 11:15 UK, 20:15 Japan, 07:15 Eastern, 04:15 Pacific, 11:15 UTC).
 
-Where: The seminar will be held on Zoom [click here](https://uzh.zoom.us/j/64390599791?pwd=MoADAJz6dJRRmHEu1pRdnxpMQPozU9.1). It will be recorded and made available afterwards on the [RDN Youtube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
+📍 Where: The seminar will be held on Zoom [click here](https://uzh.zoom.us/j/64390599791?pwd=MoADAJz6dJRRmHEu1pRdnxpMQPozU9.1). It will be recorded and made available afterwards on the [RDN Youtube channel](https://www.youtube.com/channel/UCflOe3PkZeoxI6-PM9DTPpg).
 
-Zoom link: https://uzh.zoom.us/j/64390599791?pwd=MoADAJz6dJRRmHEu1pRdnxpMQPozU9.1
+🤝 This seminar is in collaboration with the Department of Evolutionary Biology and Environmental Studies at the University of Zurich. Host: Owen Petchey. More information about the seminar series is available [here](https://www.ieu.uzh.ch/seminars/full_seminar_list.php?seminar=BEEES).
 
-[Add this seminar to your calendar](../assets/calendar/2026-10-29-robert-junker-seminar.ics)
+🔗 Zoom link: https://uzh.zoom.us/j/64390599791?pwd=MoADAJz6dJRRmHEu1pRdnxpMQPozU9.1
+
+📅 [Add this seminar to your calendar](../assets/calendar/2026-10-29-robert-junker-seminar.ics)
 
 # By the way
 
