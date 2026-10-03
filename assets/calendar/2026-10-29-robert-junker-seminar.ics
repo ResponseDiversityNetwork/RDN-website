@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Response Diversity Network//RDN Seminar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20261029T111500Z-robert-junker-seminar@responsediversitynetwork.github.io
+DTSTAMP:20261003T080000Z
+DTSTART:20261029T111500Z
+DTEND:20261029T121500Z
+SUMMARY:Robert Junker Seminar: Mechanisms underlying ecological stability
+DESCRIPTION:Prof. Dr. Robert R. Junker will give an online seminar titled "Mechanisms underlying ecological stability".\n\nAbstract to follow.\n\nZoom: https://uzh.zoom.us/j/64390599791?pwd=MoADAJz6dJRRmHEu1pRdnxpMQPozU9.1
+LOCATION:Zoom
+URL:https://uzh.zoom.us/j/64390599791?pwd=MoADAJz6dJRRmHEu1pRdnxpMQPozU9.1
+END:VEVENT
+END:VCALENDAR
