@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  # Copies the project register from the rdn-projectbase repo into projectbase/
+  pre-render: scripts/sync_projectbase.py
+  resources:
+    - projectbase/data/projects.json
+    - projectbase/data/tags.json
   preview:
     browser: false
     timeout: 0.001

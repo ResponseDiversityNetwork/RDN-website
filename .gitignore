@@ -44,3 +44,7 @@ docs/
 /.quarto/
 
 **/*.quarto_ipynb
+
+# Generated from the rdn-projectbase repo by scripts/sync_projectbase.py
+/projectbase/
+/.projectbase-src/

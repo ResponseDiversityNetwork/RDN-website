@@ -2,6 +2,10 @@
 title: "Resources"
 ---
 
+## Projects
+
+-   [Response diversity projects](projectbase/index.qmd): a register of response diversity projects, from first ideas to published papers. Browse projects to find collaborators, data or related work, or [share your own project](projectbase/submit.qmd).
+
 ## Publications
 
 -   We've made [a library of response diversity related papers](https://www.zotero.org/groups/5297762/response_diversity_network/library) in [Zotero](https://www.zotero.org/). We created the library in November 2023 and will add more papers as we go along.

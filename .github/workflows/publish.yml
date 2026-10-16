@@ -8,7 +8,22 @@ on:
     branches:
       - live
 
+  # Sent by rdn-projectbase after a project is added, updated or removed.
+  repository_dispatch:
+    types: [projectbase-updated]
+
+  # "Run workflow" button on the Actions tab.
+  workflow_dispatch:
+
+  # Safety net in case a dispatch is missed: rebuild once a day (03:17 UTC).
+  schedule:
+    - cron: "17 3 * * *"
+
 name: Quarto Publish
+
+concurrency:
+  group: publish-website
+  cancel-in-progress: false
 
 jobs:
   build-deploy:
@@ -24,6 +39,15 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      # The pre-render script copies the project register from rdn-projectbase.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages for the project register
+        run: pip install pyyaml "jsonschema[format]>=4.18"
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -47,3 +71,4 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RDN_PROJECTBASE_CLONE: "1"
