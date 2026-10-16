@@ -1,0 +1,131 @@
+[
+  {
+    "id": "rdn-2026-001",
+    "title": "Response diversity rocks",
+    "lead": {
+      "name": "Unreal Petchey",
+      "institution": "UZH"
+    },
+    "summary": "blah blah blah blah blah blah blah blah blah blah blah blah",
+    "response_diversity": [
+      "Temporal (asynchrony, timing of responses)",
+      "Intraspecific / genetic"
+    ],
+    "organisms": [
+      "Invertebrates",
+      "Fungi"
+    ],
+    "ecosystems": [
+      "Freshwater"
+    ],
+    "drivers": "temperature",
+    "approaches": [
+      "Laboratory or mesocosm experiment"
+    ],
+    "stage": "In progress - team set",
+    "contributions_sought": [
+      "Data",
+      "Analysis / statistics",
+      "Modelling / theory"
+    ],
+    "authorship_guidelines": "NA",
+    "timeline": "3 months",
+    "listing": "full",
+    "created": "2026-10-01",
+    "updated": "2026-10-02"
+  },
+  {
+    "id": "rdn-2026-002",
+    "title": "Someone save me",
+    "lead": {
+      "name": "Sam Ross",
+      "institution": "Kyoto University"
+    },
+    "summary": "The new job is fairly admin heavy so far, so I am convening an RDN team to help me, ideally via collaborative consumption of alcoholic beverages...",
+    "response_diversity": [
+      "Other"
+    ],
+    "organisms": [
+      "Not organism-specific"
+    ],
+    "ecosystems": [
+      "Terrestrial"
+    ],
+    "drivers": "stress (psychological)",
+    "approaches": [
+      "Laboratory or mesocosm experiment",
+      "Data compilation"
+    ],
+    "stage": "Seeking collaborators",
+    "contributions_sought": [
+      "Funding / hosting"
+    ],
+    "authorship_guidelines": "it is open to anyone who can BYOB",
+    "timeline": "ASAP (or in December :) )",
+    "listing": "full",
+    "created": "2026-10-05",
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "rdn-2026-003",
+    "title": "Do trees have diverse responses to poking?",
+    "lead": {
+      "name": "Zeres",
+      "institution": "CFS",
+      "orcid": "0000-0003-4036-977X"
+    },
+    "summary": "Poke a tree a see what it does. Poke many trees and measure RD.",
+    "response_diversity": [
+      "Response traits / functional response diversity",
+      "Other"
+    ],
+    "organisms": [
+      "Plants"
+    ],
+    "ecosystems": [
+      "Terrestrial"
+    ],
+    "drivers": "Poking",
+    "approaches": [
+      "Field experiment"
+    ],
+    "stage": "Idea - gauging interest",
+    "contributions_sought": [
+      "Data",
+      "Analysis / statistics",
+      "Modelling / theory"
+    ],
+    "authorship_guidelines": "Toss of a coin",
+    "timeline": "10 years",
+    "listing": "full",
+    "created": "2026-10-06",
+    "updated": "2026-10-06"
+  },
+  {
+    "id": "rdn-2026-004",
+    "title": "Test ReDiLEEP DC11 Project 1",
+    "lead": {
+      "name": "me"
+    },
+    "summary": "Project about response diversity and policy",
+    "response_diversity": [
+      "Response traits / functional response diversity",
+      "Other"
+    ],
+    "organisms": [
+      "Microbes",
+      "Multiple / whole communities"
+    ],
+    "ecosystems": [
+      "Terrestrial"
+    ],
+    "tags": [
+      "ReDiLEEP",
+      "DC11"
+    ],
+    "stage": "Idea - gauging interest",
+    "listing": "full",
+    "created": "2026-10-16",
+    "updated": "2026-10-16"
+  }
+]
