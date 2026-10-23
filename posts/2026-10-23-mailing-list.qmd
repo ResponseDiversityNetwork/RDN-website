@@ -9,11 +9,7 @@ categories: ['News']
 
 ![](../assets/logo/Horizontal_Lockup_Black.png){width="300"}
 
-The Response Diversity Network now has its own mailing list:
-
-[**respdivnet\@ieu.lists.uzh.ch**](mailto:respdivnet@ieu.lists.uzh.ch)
-
-Until now, the network's contact list was a list of email addresses kept by a few key members, and only they could send messages to the membership. The new list changes that. Any subscriber can send one email to the list address, and it reaches everyone in the network.
+The Response Diversity Network now has its own mailing list. Until now, the network's contact list was a list of email addresses kept by a few key members, and only they could send messages to the membership. The new list changes that. Any subscriber can send one email to the list address, and it reaches everyone in the network.
 
 Use the list to:
 
