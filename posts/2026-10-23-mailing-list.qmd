@@ -95,7 +95,7 @@ Send these commands to [sympa\@ieu.lists.uzh.ch](mailto:sympa@ieu.lists.uzh.ch),
 
 # How to subscribe {#subscribe}
 
-The easiest way is to tick "join the RDN mailing list" when you fill in the [membership form](../join.qmd). We will then add you.
+(*This paragraph only valid once we go live with the new membership system*: If you used the new (from October 2026) membership form, you should already be subscribed (unless you clicked in the form to opt-out of the mailing list). If you didn't already use the new membership form, please consider doing so.)
 
 You can also subscribe yourself by email. Send this to [sympa\@ieu.lists.uzh.ch](mailto:sympa@ieu.lists.uzh.ch), with your own first and last name:
 
@@ -108,7 +108,11 @@ Sympa will email you to confirm that the request came from you. Reply as its mes
 
 # How to unsubscribe {#unsubscribe}
 
-To leave the list, send to [sympa\@ieu.lists.uzh.ch](mailto:sympa@ieu.lists.uzh.ch):
+You can use your personal link to your membership form to unsubscribe from the list, or you can unsubscribe by email.
+
+To unsubscribe with the form, go to your personal link (which you should have saved, but can otherwise get from the membership curator). You will be taken to your personal form; find the option to opt-out of the mailing list.
+
+To leave the list with an email, send to [sympa\@ieu.lists.uzh.ch](mailto:sympa@ieu.lists.uzh.ch):
 
 ```         
 UNSUBSCRIBE respdivnet
