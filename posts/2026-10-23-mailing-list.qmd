@@ -23,6 +23,7 @@ The list is hosted by the Department of Evolutionary Biology and Environmental S
 **Contents**
 
 - [What happens when you are subscribed](#subscribed)
+- [Please introduce yourself](#introduce)
 - [Code of conduct](#code-of-conduct)
 - [How to manage your subscription by email](#commands)
 - [How to subscribe](#subscribe)
@@ -38,12 +39,37 @@ The list is hosted by the Department of Evolutionary Biology and Environmental S
 - Only subscribers can send to the list. Messages are not checked by a moderator before they go out, so please follow the code of conduct below.
 - Only subscribers can see information about the list, and only the list owners can see who is subscribed. Your email address is not published.
 
+# Please introduce yourself {#introduce}
+
+Once you have joined, please send a short introduction to the list at [respdivnet\@ieu.lists.uzh.ch](mailto:respdivnet@ieu.lists.uzh.ch). It helps members find people with shared interests, and it is a good way to start conversations and collaborations across the network.
+
+A few sentences are enough. You could include:
+
+- your name, role and institution;
+- your research interests, and how they connect to response diversity;
+- the systems, organisms or methods you work with;
+- what you hope to get from the network, or what you can offer to it.
+
+Please use a subject line starting with "Introduction:", so introductions are easy to find. Here is an example:
+
+> **Subject:** Introduction: Alex Example, freshwater ecology
+>
+> Hello everyone,
+>
+> I'm Alex, a postdoc at the University of Example. I study how communities of freshwater invertebrates respond to drought and heatwaves, and whether differences in species' responses help stream ecosystems recover. I work mainly with field surveys and mesocosm experiments, and I'm increasingly interested in how to measure response diversity from long-term monitoring data.
+>
+> I'd be happy to hear from anyone working on similar questions, or with stream monitoring data that might be useful for comparison.
+>
+> Best wishes,\
+> Alex
+
 # Code of conduct {#code-of-conduct}
 
 The list works because everyone on it finds it useful. It reaches researchers and practitioners in many countries, disciplines and career stages, so please keep messages relevant, respectful and easy to act on. Messages are not moderated in advance; the list owners rely on everyone following these guidelines. We may change to a moderated list if the code of conduct is not followed.
 
 ## Good things to send
 
+- A short introduction to yourself and your research when you join (see [Please introduce yourself](#introduce)).
 - News of your own or others' work related to response diversity: new papers, preprints, datasets, software and talks.
 - Job, PhD and postdoc adverts, and calls for papers, proposals or conference sessions.
 - Announcements of workshops, courses, seminars and conference sessions of interest to the network.
