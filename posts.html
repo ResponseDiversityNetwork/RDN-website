@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.20">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-11-01">
+<meta name="dcterms.date" content="2026-11-02">
 
 <title>Posts</title>
 <style>
@@ -41,18 +41,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-23e459d215f0027b1c3ba88d7a0d5fe1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-9b585c30701aa96f67af67dae901243a.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-23e459d215f0027b1c3ba88d7a0d5fe1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-22c09d1c7c3a270998177256cfe4eeb9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-6a8572009bc6d7fde8c5e423170eaa7e.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-22c09d1c7c3a270998177256cfe4eeb9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-32ec3d574e32f423588d6013ee130518.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-7cbea83b71926a7dd55f9e9d46257449.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-32ec3d574e32f423588d6013ee130518.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7bc3ba867385a5a6fb2360c248177bb7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-9e0f0f2ba83a4047164bd5801782ec98.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-7bc3ba867385a5a6fb2360c248177bb7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,12 +104,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
@@ -145,7 +140,7 @@ window.Quarto = {
 <link rel="stylesheet" href="assets/theme/ek-styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -168,6 +163,7 @@ window.Quarto = {
       for (let i=0; i < toggles.length; i++) {
         const toggle = toggles[i];
         if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
           if (alternate) {
             toggle.classList.add("alternate");
           } else {
@@ -197,13 +193,19 @@ window.Quarto = {
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
       setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
         manageTransitions("body", false);
-        window.scrollTo(0, 1);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
         setTimeout(() => {
-          window.scrollTo(0, 0);
+          window.scrollTo(0, scrollY);
           manageTransitions("body", true);
         }, 40);
       }
@@ -297,6 +299,7 @@ window.Quarto = {
       // Read the current dark / light value
       let toAlternate = !hasAlternateSentinel();
       toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
@@ -311,10 +314,9 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -361,17 +363,18 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Posts</li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item">Posts</li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -379,7 +382,7 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Section">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./assets/logo/Horizontal_Lockup_Black.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
@@ -393,7 +396,7 @@ window.Quarto = {
         
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(30)</span></div><div class="category" data-category="TWVldGluZw==">Meeting <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TmV3cw==">News <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TmV3c2xldHRlcg==">Newsletter <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UmVzb3VyY2U=">Resource <span class="quarto-category-count">(4)</span></div><div class="category" data-category="U0MlMjBtZWV0aW5n">SC meeting <span class="quarto-category-count">(3)</span></div><div class="category" data-category="U2VtaW5hcg==">Seminar <span class="quarto-category-count">(12)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Posts</h1></header>
+<main class="content" id="quarto-document-content" tabindex="-1"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Posts</h1></header>
 
 
 <header id="title-block-header">
@@ -408,27 +411,29 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TmV3cw==" data-listing-date-sort="1792713600000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1459">
-<div class="thumbnail"><a href="./posts/2026-10-23-mailing-list.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-categories="TmV3cw==" data-listing-date-sort="1792713600000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1459">
+<div class="thumbnail"><a href="./posts/2026-10-23-mailing-list.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/logo/Horizontal_Lockup_Black.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-10-23-mailing-list.html" class="no-external">A new mailing list for the network</a>
+<a href="./posts/2026-10-23-mailing-list.html" class="no-external-icon">A new mailing list for the network</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TmV3cw=='); return false;">News</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-10-23-mailing-list.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-10-23-mailing-list.html" class="no-external-icon">
 <p>Members can now share news, opportunities and questions with the whole network through one email address.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-10-23-mailing-list.html" class="no-external">
+<a href="./posts/2026-10-23-mailing-list.html" class="no-external-icon">
 <div class="listing-date">
 Oct 23, 2026
 </div>
@@ -438,27 +443,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="U2VtaW5hcg==" data-listing-date-sort="1790985600000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
-<div class="thumbnail"><a href="./posts/2026-10-03-Junker.html" class="no-external">
+<div class="quarto-post image-right" data-index="1" data-categories="U2VtaW5hcg==" data-listing-date-sort="1790985600000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
+<div class="thumbnail"><a href="./posts/2026-10-03-Junker.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/Junker.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-10-03-Junker.html" class="no-external">Robert Junker Seminar</a>
+<a href="./posts/2026-10-03-Junker.html" class="no-external-icon">Robert Junker Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-10-03-Junker.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-10-03-Junker.html" class="no-external-icon">
 <p>Robert Junker will talk about mechanisms underlying ecological stability</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-10-03-Junker.html" class="no-external">
+<a href="./posts/2026-10-03-Junker.html" class="no-external-icon">
 <div class="listing-date">
 Oct 3, 2026
 </div>
@@ -468,27 +475,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="TmV3cw==" data-listing-date-sort="1788220800000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="647">
-<div class="thumbnail"><a href="./posts/2026-09-01-new-LT-team.html" class="no-external">
+<div class="quarto-post image-right" data-index="2" data-categories="TmV3cw==" data-listing-date-sort="1788220800000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="647">
+<div class="thumbnail"><a href="./posts/2026-09-01-new-LT-team.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/Molinia.jpeg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-09-01-new-LT-team.html" class="no-external">Leadership team and activities update</a>
+<a href="./posts/2026-09-01-new-LT-team.html" class="no-external-icon">Leadership team and activities update</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TmV3cw=='); return false;">News</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-09-01-new-LT-team.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-09-01-new-LT-team.html" class="no-external-icon">
 <p>The Response Diversity Network is moving into a new phase, with a new leadership team helping to guide the network’s activities over the coming years.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-09-01-new-LT-team.html" class="no-external">
+<a href="./posts/2026-09-01-new-LT-team.html" class="no-external-icon">
 <div class="listing-date">
 Sep 1, 2026
 </div>
@@ -498,27 +507,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="U2VtaW5hcg==" data-listing-date-sort="1787529600000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
-<div class="thumbnail"><a href="./posts/2026-08-24-Ghedini.html" class="no-external">
+<div class="quarto-post image-right" data-index="3" data-categories="U2VtaW5hcg==" data-listing-date-sort="1787529600000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
+<div class="thumbnail"><a href="./posts/2026-08-24-Ghedini.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/Ghedini.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-08-24-Ghedini.html" class="no-external">Giulia Ghedini Seminar</a>
+<a href="./posts/2026-08-24-Ghedini.html" class="no-external-icon">Giulia Ghedini Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-08-24-Ghedini.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-08-24-Ghedini.html" class="no-external-icon">
 <p>Giulia Ghedini will talk about linking species traits to community assembly and stability</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-08-24-Ghedini.html" class="no-external">
+<a href="./posts/2026-08-24-Ghedini.html" class="no-external-icon">
 <div class="listing-date">
 Aug 24, 2026
 </div>
@@ -528,27 +539,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="U2VtaW5hcg==" data-listing-date-sort="1776816000000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="383">
-<div class="thumbnail"><a href="./posts/2026-04-22-Natsume.html" class="no-external">
+<div class="quarto-post image-right" data-index="4" data-categories="U2VtaW5hcg==" data-listing-date-sort="1776816000000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="383">
+<div class="thumbnail"><a href="./posts/2026-04-22-Natsume.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/Kae Natsume.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-04-22-Natsume.html" class="no-external">Kae Natsume Seminar</a>
+<a href="./posts/2026-04-22-Natsume.html" class="no-external-icon">Kae Natsume Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-04-22-Natsume.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-04-22-Natsume.html" class="no-external-icon">
 <p>Kae Natsume will talk about Pollination service under variable environments and the importance of diversity</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-04-22-Natsume.html" class="no-external">
+<a href="./posts/2026-04-22-Natsume.html" class="no-external-icon">
 <div class="listing-date">
 Apr 22, 2026
 </div>
@@ -558,27 +571,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="UmVzb3VyY2U=" data-listing-date-sort="1772409600000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
-<div class="thumbnail"><a href="./posts/2026-03-02-Oikos-expert-priorities.html" class="no-external">
+<div class="quarto-post image-right" data-index="5" data-categories="UmVzb3VyY2U=" data-listing-date-sort="1772409600000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
+<div class="thumbnail"><a href="./posts/2026-03-02-Oikos-expert-priorities.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/expert1.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-03-02-Oikos-expert-priorities.html" class="no-external">Expert led priorities</a>
+<a href="./posts/2026-03-02-Oikos-expert-priorities.html" class="no-external-icon">Expert led priorities</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('UmVzb3VyY2U='); return false;">Resource</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-03-02-Oikos-expert-priorities.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-03-02-Oikos-expert-priorities.html" class="no-external-icon">
 <p>What Is Response Diversity, Why Does It Matter, and What are the Priorities?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-03-02-Oikos-expert-priorities.html" class="no-external">
+<a href="./posts/2026-03-02-Oikos-expert-priorities.html" class="no-external-icon">
 <div class="listing-date">
 Mar 2, 2026
 </div>
@@ -588,27 +603,29 @@ Owen Petchey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="U2VtaW5hcg==" data-listing-date-sort="1769558400000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
-<div class="thumbnail"><a href="./posts/2026-01-28-Gravel.html" class="no-external">
+<div class="quarto-post image-right" data-index="6" data-categories="U2VtaW5hcg==" data-listing-date-sort="1769558400000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
+<div class="thumbnail"><a href="./posts/2026-01-28-Gravel.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/Gravel.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-01-28-Gravel.html" class="no-external">Dominique Gravel Seminar</a>
+<a href="./posts/2026-01-28-Gravel.html" class="no-external-icon">Dominique Gravel Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-01-28-Gravel.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-01-28-Gravel.html" class="no-external-icon">
 <p>Dominique Gravel will talk about Anticipating ecological disruptions with measurement of network coherence</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-01-28-Gravel.html" class="no-external">
+<a href="./posts/2026-01-28-Gravel.html" class="no-external-icon">
 <div class="listing-date">
 Jan 28, 2026
 </div>
@@ -618,27 +635,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="TWVldGluZw==" data-listing-date-sort="1766102400000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="864">
-<div class="thumbnail"><a href="./posts/2025-12-19-RDN-at-BES2025.html" class="no-external">
+<div class="quarto-post image-right" data-index="7" data-categories="TWVldGluZw==" data-listing-date-sort="1766102400000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="864">
+<div class="thumbnail"><a href="./posts/2025-12-19-RDN-at-BES2025.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/RDN-at-BES2025/dee.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-12-19-RDN-at-BES2025.html" class="no-external">RDN @ BES2025</a>
+<a href="./posts/2025-12-19-RDN-at-BES2025.html" class="no-external-icon">RDN @ BES2025</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TWVldGluZw=='); return false;">Meeting</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-12-19-RDN-at-BES2025.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-12-19-RDN-at-BES2025.html" class="no-external-icon">
 <p>Insurance in Ecosystems: Exploring the Role of Response Diversity across Scales: a thematic session at the annual meeting of the British Ecological Society in Edinburgh in December 2025.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-12-19-RDN-at-BES2025.html" class="no-external">
+<a href="./posts/2025-12-19-RDN-at-BES2025.html" class="no-external-icon">
 <div class="listing-date">
 Dec 19, 2025
 </div>
@@ -648,27 +667,29 @@ Owen Petchey &amp; Francesco Polazzo
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="U2VtaW5hcg==" data-listing-date-sort="1764028800000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
-<div class="thumbnail"><a href="./posts/2025-11-25-Manning.html" class="no-external">
+<div class="quarto-post image-right" data-index="8" data-categories="U2VtaW5hcg==" data-listing-date-sort="1764028800000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+<div class="thumbnail"><a href="./posts/2025-11-25-Manning.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/manning.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-11-25-Manning.html" class="no-external">Pete Manning Seminar</a>
+<a href="./posts/2025-11-25-Manning.html" class="no-external-icon">Pete Manning Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-11-25-Manning.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-11-25-Manning.html" class="no-external-icon">
 <p>Pete Manning will talk about Linking biodiversity and land use changes to societal impacts</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-11-25-Manning.html" class="no-external">
+<a href="./posts/2025-11-25-Manning.html" class="no-external-icon">
 <div class="listing-date">
 Nov 25, 2025
 </div>
@@ -678,27 +699,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="U2VtaW5hcg==" data-listing-date-sort="1761436800000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="319">
-<div class="thumbnail"><a href="./posts/2025-10-26-Krishnadas.html" class="no-external">
+<div class="quarto-post image-right" data-index="9" data-categories="U2VtaW5hcg==" data-listing-date-sort="1761436800000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="319">
+<div class="thumbnail"><a href="./posts/2025-10-26-Krishnadas.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/Krishnadas.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-10-26-Krishnadas.html" class="no-external">Meghna Krishnadas Seminar</a>
+<a href="./posts/2025-10-26-Krishnadas.html" class="no-external-icon">Meghna Krishnadas Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-10-26-Krishnadas.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-10-26-Krishnadas.html" class="no-external-icon">
 <p>Meghna Krishnadas will talk about the relative and interactive roles of abiotic and biotic drivers on demographic responses of plants</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-10-26-Krishnadas.html" class="no-external">
+<a href="./posts/2025-10-26-Krishnadas.html" class="no-external-icon">
 <div class="listing-date">
 Oct 26, 2025
 </div>
@@ -708,27 +731,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="TmV3c2xldHRlcg==" data-listing-date-sort="1761350400000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="716">
-<div class="thumbnail"><a href="./posts/2025-10-01-Newsletter-October2025.html" class="no-external">
+<div class="quarto-post image-right" data-index="10" data-categories="TmV3c2xldHRlcg==" data-listing-date-sort="1761350400000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="716">
+<div class="thumbnail"><a href="./posts/2025-10-01-Newsletter-October2025.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/Gentiana.JPG"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-10-01-Newsletter-October2025.html" class="no-external">Newsletter October 2025</a>
+<a href="./posts/2025-10-01-Newsletter-October2025.html" class="no-external-icon">Newsletter October 2025</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TmV3c2xldHRlcg=='); return false;">Newsletter</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-10-01-Newsletter-October2025.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-10-01-Newsletter-October2025.html" class="no-external-icon">
 <p>The October 2025 Newsletter, with updates of activities over the last few months, and how to get involved.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-10-01-Newsletter-October2025.html" class="no-external">
+<a href="./posts/2025-10-01-Newsletter-October2025.html" class="no-external-icon">
 <div class="listing-date">
 Oct 25, 2025
 </div>
@@ -738,27 +763,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="U2VtaW5hcg==" data-listing-date-sort="1758672000000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
-<div class="thumbnail"><a href="./posts/2025-09-17-DeBello.html" class="no-external">
+<div class="quarto-post image-right" data-index="11" data-categories="U2VtaW5hcg==" data-listing-date-sort="1758672000000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
+<div class="thumbnail"><a href="./posts/2025-09-17-DeBello.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/debello.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-17-DeBello.html" class="no-external">Francesco De Bello Seminar</a>
+<a href="./posts/2025-09-17-DeBello.html" class="no-external-icon">Francesco De Bello Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-09-17-DeBello.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-09-17-DeBello.html" class="no-external-icon">
 <p>Francesco De Bello will talk about Functional trait effects on ecosystem stability: assembling the jigsaw puzzle</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-09-17-DeBello.html" class="no-external">
+<a href="./posts/2025-09-17-DeBello.html" class="no-external-icon">
 <div class="listing-date">
 Sep 24, 2025
 </div>
@@ -768,27 +795,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="U2VtaW5hcg==" data-listing-date-sort="1750377600000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="337">
-<div class="thumbnail"><a href="./posts/2025-06-20-Clark.html" class="no-external">
+<div class="quarto-post image-right" data-index="12" data-categories="U2VtaW5hcg==" data-listing-date-sort="1750377600000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="337">
+<div class="thumbnail"><a href="./posts/2025-06-20-Clark.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/Clark.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-06-20-Clark.html" class="no-external">Adam Clark Seminar</a>
+<a href="./posts/2025-06-20-Clark.html" class="no-external-icon">Adam Clark Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-06-20-Clark.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-06-20-Clark.html" class="no-external-icon">
 <p>Adam Clark will talk about When is response diversity relevant in relation to single pulse perturbations?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-06-20-Clark.html" class="no-external">
+<a href="./posts/2025-06-20-Clark.html" class="no-external-icon">
 <div class="listing-date">
 Jun 20, 2025
 </div>
@@ -798,27 +827,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="U2VtaW5hcg==" data-listing-date-sort="1748390400000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
-<div class="thumbnail"><a href="./posts/2025-05-28-Kunze.html" class="no-external">
+<div class="quarto-post image-right" data-index="13" data-categories="U2VtaW5hcg==" data-listing-date-sort="1748390400000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
+<div class="thumbnail"><a href="./posts/2025-05-28-Kunze.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/CKunze.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-05-28-Kunze.html" class="no-external">Charlotte Kunze Seminar</a>
+<a href="./posts/2025-05-28-Kunze.html" class="no-external-icon">Charlotte Kunze Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-05-28-Kunze.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-05-28-Kunze.html" class="no-external-icon">
 <p>Charlotte Kunze will talk about Mechanistic insights into the biodiversity-stability relationship: how species responses shape ecological stability</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-05-28-Kunze.html" class="no-external">
+<a href="./posts/2025-05-28-Kunze.html" class="no-external-icon">
 <div class="listing-date">
 May 28, 2025
 </div>
@@ -828,27 +859,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="U2VtaW5hcg==" data-listing-date-sort="1745452800000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
-<div class="thumbnail"><a href="./posts/2025-02-24-DeLaender.html" class="no-external">
+<div class="quarto-post image-right" data-index="14" data-categories="U2VtaW5hcg==" data-listing-date-sort="1745452800000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
+<div class="thumbnail"><a href="./posts/2025-02-24-DeLaender.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/DeLaender.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-02-24-DeLaender.html" class="no-external">Frederik De Laender Seminar</a>
+<a href="./posts/2025-02-24-DeLaender.html" class="no-external-icon">Frederik De Laender Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-02-24-DeLaender.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-02-24-DeLaender.html" class="no-external-icon">
 <p>Frederik De Laender will talk about Is environmental change research a mess?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-02-24-DeLaender.html" class="no-external">
+<a href="./posts/2025-02-24-DeLaender.html" class="no-external-icon">
 <div class="listing-date">
 Apr 24, 2025
 </div>
@@ -858,27 +891,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="TmV3c2xldHRlcg==" data-listing-date-sort="1742428800000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="508">
-<div class="thumbnail"><a href="./posts/2025-03-20-Newsletter-March2025.html" class="no-external">
+<div class="quarto-post image-right" data-index="15" data-categories="TmV3c2xldHRlcg==" data-listing-date-sort="1742428800000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="508">
+<div class="thumbnail"><a href="./posts/2025-03-20-Newsletter-March2025.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/spring-2024-Okinawa.jpg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-03-20-Newsletter-March2025.html" class="no-external">Newsletter March 2025</a>
+<a href="./posts/2025-03-20-Newsletter-March2025.html" class="no-external-icon">Newsletter March 2025</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TmV3c2xldHRlcg=='); return false;">Newsletter</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-03-20-Newsletter-March2025.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-03-20-Newsletter-March2025.html" class="no-external-icon">
 <p>The March 2025 Newsletter, with updates of activities over the last few months, and how to get involved.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-03-20-Newsletter-March2025.html" class="no-external">
+<a href="./posts/2025-03-20-Newsletter-March2025.html" class="no-external-icon">
 <div class="listing-date">
 Mar 20, 2025
 </div>
@@ -888,27 +923,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="UmVzb3VyY2U=" data-listing-date-sort="1742428800000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="419">
-<div class="thumbnail"><a href="./posts/2023-11-27-seminar-host-guidelines.html" class="no-external">
+<div class="quarto-post image-right" data-index="16" data-categories="UmVzb3VyY2U=" data-listing-date-sort="1742428800000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="419">
+<div class="thumbnail"><a href="./posts/2023-11-27-seminar-host-guidelines.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2023-11-27-seminar-host-guidelines.html" class="no-external">How to host a seminar</a>
+<a href="./posts/2023-11-27-seminar-host-guidelines.html" class="no-external-icon">How to host a seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('UmVzb3VyY2U='); return false;">Resource</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2023-11-27-seminar-host-guidelines.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2023-11-27-seminar-host-guidelines.html" class="no-external-icon">
 <p>Guidelines on how to host a virtual seminar in the RDN seminar series</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2023-11-27-seminar-host-guidelines.html" class="no-external">
+<a href="./posts/2023-11-27-seminar-host-guidelines.html" class="no-external-icon">
 <div class="listing-date">
 Mar 20, 2025
 </div>
@@ -918,27 +955,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="U2VtaW5hcg==" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="403">
-<div class="thumbnail"><a href="./posts/2025-02-24-Arnoldi.html" class="no-external">
+<div class="quarto-post image-right" data-index="17" data-categories="U2VtaW5hcg==" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="403">
+<div class="thumbnail"><a href="./posts/2025-02-24-Arnoldi.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/Arnoldi.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-02-24-Arnoldi.html" class="no-external">Jean-François Arnoldi Seminar</a>
+<a href="./posts/2025-02-24-Arnoldi.html" class="no-external-icon">Jean-François Arnoldi Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-02-24-Arnoldi.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-02-24-Arnoldi.html" class="no-external-icon">
 <p>Jean-François Arnoldi will talk about Linear functional ecology: Rethinking species contributions to ecosystem functions</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-02-24-Arnoldi.html" class="no-external">
+<a href="./posts/2025-02-24-Arnoldi.html" class="no-external-icon">
 <div class="listing-date">
 Feb 24, 2025
 </div>
@@ -948,27 +987,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="U2VtaW5hcg==" data-listing-date-sort="1736121600000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
-<div class="thumbnail"><a href="./posts/2025-01-06-Elmqvist-seminar.html" class="no-external">
+<div class="quarto-post image-right" data-index="18" data-categories="U2VtaW5hcg==" data-listing-date-sort="1736121600000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
+<div class="thumbnail"><a href="./posts/2025-01-06-Elmqvist-seminar.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/thomas_elmqvist_hires.jpg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-01-06-Elmqvist-seminar.html" class="no-external">Thomas Elmqvist Seminar</a>
+<a href="./posts/2025-01-06-Elmqvist-seminar.html" class="no-external-icon">Thomas Elmqvist Seminar</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U2VtaW5hcg=='); return false;">Seminar</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-01-06-Elmqvist-seminar.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-01-06-Elmqvist-seminar.html" class="no-external-icon">
 <p>Thomas Elmqvist will talk about response diversity as a sustainability strategy</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-01-06-Elmqvist-seminar.html" class="no-external">
+<a href="./posts/2025-01-06-Elmqvist-seminar.html" class="no-external-icon">
 <div class="listing-date">
 Jan 6, 2025
 </div>
@@ -978,27 +1019,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="TmV3c2xldHRlcg==" data-listing-date-sort="1719964800000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="856">
-<div class="thumbnail"><a href="./posts/2024-07-01-Newsletter-July2024.html" class="no-external">
+<div class="quarto-post image-right" data-index="19" data-categories="TmV3c2xldHRlcg==" data-listing-date-sort="1719964800000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="856">
+<div class="thumbnail"><a href="./posts/2024-07-01-Newsletter-July2024.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/OIST_view.jpg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2024-07-01-Newsletter-July2024.html" class="no-external">Newsletter July 2024</a>
+<a href="./posts/2024-07-01-Newsletter-July2024.html" class="no-external-icon">Newsletter July 2024</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TmV3c2xldHRlcg=='); return false;">Newsletter</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2024-07-01-Newsletter-July2024.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2024-07-01-Newsletter-July2024.html" class="no-external-icon">
 <p>The July 2024 Newsletter, with updates of activities over the last year, and how to get involved.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2024-07-01-Newsletter-July2024.html" class="no-external">
+<a href="./posts/2024-07-01-Newsletter-July2024.html" class="no-external-icon">
 <div class="listing-date">
 Jul 3, 2024
 </div>
@@ -1008,27 +1051,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="UmVzb3VyY2U=" data-listing-date-sort="1701043200000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
-<div class="thumbnail"><a href="./posts/2023-11-27-Zotero-library.html" class="no-external">
+<div class="quarto-post image-right" data-index="20" data-categories="UmVzb3VyY2U=" data-listing-date-sort="1701043200000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="thumbnail"><a href="./posts/2023-11-27-Zotero-library.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/zotero-library.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2023-11-27-Zotero-library.html" class="no-external">Library of response diversity papers</a>
+<a href="./posts/2023-11-27-Zotero-library.html" class="no-external-icon">Library of response diversity papers</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('UmVzb3VyY2U='); return false;">Resource</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2023-11-27-Zotero-library.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2023-11-27-Zotero-library.html" class="no-external-icon">
 <p>The RDN compiles a library of response diversity related papers in Zotero</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2023-11-27-Zotero-library.html" class="no-external">
+<a href="./posts/2023-11-27-Zotero-library.html" class="no-external-icon">
 <div class="listing-date">
 Nov 27, 2023
 </div>
@@ -1038,27 +1083,29 @@ Owen Petchey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="UmVzb3VyY2U=" data-listing-date-sort="1698710400000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="293">
-<div class="thumbnail"><a href="./posts/2023-10-06-Providing-information.html" class="no-external">
+<div class="quarto-post image-right" data-index="21" data-categories="UmVzb3VyY2U=" data-listing-date-sort="1698710400000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="293">
+<div class="thumbnail"><a href="./posts/2023-10-06-Providing-information.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2023-10-06-Providing-information.html" class="no-external">Three opportunities to help policy- and decision-makers</a>
+<a href="./posts/2023-10-06-Providing-information.html" class="no-external-icon">Three opportunities to help policy- and decision-makers</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('UmVzb3VyY2U='); return false;">Resource</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2023-10-06-Providing-information.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2023-10-06-Providing-information.html" class="no-external-icon">
 Owen Petchey
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2023-10-06-Providing-information.html" class="no-external">
+<a href="./posts/2023-10-06-Providing-information.html" class="no-external-icon">
 <div class="listing-date">
 Oct 31, 2023
 </div>
@@ -1068,27 +1115,29 @@ Owen Petchey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="TWVldGluZw==" data-listing-date-sort="1697155200000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
-<div class="thumbnail"><a href="./posts/2023-10-06-RDN-at-GfO.html" class="no-external">
+<div class="quarto-post image-right" data-index="22" data-categories="TWVldGluZw==" data-listing-date-sort="1697155200000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
+<div class="thumbnail"><a href="./posts/2023-10-06-RDN-at-GfO.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/RDN-at-GfO/group.jpeg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2023-10-06-RDN-at-GfO.html" class="no-external">RDN @ GfO</a>
+<a href="./posts/2023-10-06-RDN-at-GfO.html" class="no-external-icon">RDN @ GfO</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TWVldGluZw=='); return false;">Meeting</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2023-10-06-RDN-at-GfO.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2023-10-06-RDN-at-GfO.html" class="no-external-icon">
 <p>The network organised a symposium at the annual meeting of the GfO.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2023-10-06-RDN-at-GfO.html" class="no-external">
+<a href="./posts/2023-10-06-RDN-at-GfO.html" class="no-external-icon">
 <div class="listing-date">
 Oct 13, 2023
 </div>
@@ -1098,27 +1147,29 @@ Owen Petchey &amp; Francesco Polazzo
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="TmV3c2xldHRlcg==" data-listing-date-sort="1690070400000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="653">
-<div class="thumbnail"><a href="./posts/2023-07-01-Newsletter-July2023.html" class="no-external">
+<div class="quarto-post image-right" data-index="23" data-categories="TmV3c2xldHRlcg==" data-listing-date-sort="1690070400000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="653">
+<div class="thumbnail"><a href="./posts/2023-07-01-Newsletter-July2023.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/Alps_Owen.jpeg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2023-07-01-Newsletter-July2023.html" class="no-external">Newsletter July 2023</a>
+<a href="./posts/2023-07-01-Newsletter-July2023.html" class="no-external-icon">Newsletter July 2023</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TmV3c2xldHRlcg=='); return false;">Newsletter</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2023-07-01-Newsletter-July2023.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2023-07-01-Newsletter-July2023.html" class="no-external-icon">
 <p>The July 2023 Newsletter, with updates of activities over the last few months, and how to get involved.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2023-07-01-Newsletter-July2023.html" class="no-external">
+<a href="./posts/2023-07-01-Newsletter-July2023.html" class="no-external-icon">
 <div class="listing-date">
 Jul 23, 2023
 </div>
@@ -1128,27 +1179,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="TmV3c2xldHRlcg==" data-listing-date-sort="1680307200000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="554">
-<div class="thumbnail"><a href="./posts/2023-04-01-Newsletter-April2023.html" class="no-external">
+<div class="quarto-post image-right" data-index="24" data-categories="TmV3c2xldHRlcg==" data-listing-date-sort="1680307200000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="554">
+<div class="thumbnail"><a href="./posts/2023-04-01-Newsletter-April2023.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="assets/images/blossom_April_2023.jpg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2023-04-01-Newsletter-April2023.html" class="no-external">Newsletter April 2023</a>
+<a href="./posts/2023-04-01-Newsletter-April2023.html" class="no-external-icon">Newsletter April 2023</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TmV3c2xldHRlcg=='); return false;">Newsletter</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2023-04-01-Newsletter-April2023.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2023-04-01-Newsletter-April2023.html" class="no-external-icon">
 <p>The April 2023 Newsletter, with updates of activities over the last few months, and how to get involved.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2023-04-01-Newsletter-April2023.html" class="no-external">
+<a href="./posts/2023-04-01-Newsletter-April2023.html" class="no-external-icon">
 <div class="listing-date">
 Apr 1, 2023
 </div>
@@ -1158,27 +1211,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="TWVldGluZw==" data-listing-date-sort="1677628800000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail"><a href="./posts/2023-03-01-RDN-at-ESJ.html" class="no-external">
+<div class="quarto-post image-right" data-index="25" data-categories="TWVldGluZw==" data-listing-date-sort="1677628800000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="thumbnail"><a href="./posts/2023-03-01-RDN-at-ESJ.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2023-03-01-RDN-at-ESJ.html" class="no-external">RDN @ ESJ</a>
+<a href="./posts/2023-03-01-RDN-at-ESJ.html" class="no-external-icon">RDN @ ESJ</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TWVldGluZw=='); return false;">Meeting</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2023-03-01-RDN-at-ESJ.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2023-03-01-RDN-at-ESJ.html" class="no-external-icon">
 <p>Sam Ross represented the network at the annual meeting of the Ecological Society of Japan</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2023-03-01-RDN-at-ESJ.html" class="no-external">
+<a href="./posts/2023-03-01-RDN-at-ESJ.html" class="no-external-icon">
 <div class="listing-date">
 Mar 1, 2023
 </div>
@@ -1188,27 +1243,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="U0MlMjBtZWV0aW5n" data-listing-date-sort="1672617600000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<div class="thumbnail"><a href="./posts/2023-01-02-SC-meeting.html" class="no-external">
+<div class="quarto-post image-right" data-index="26" data-categories="U0MlMjBtZWV0aW5n" data-listing-date-sort="1672617600000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<div class="thumbnail"><a href="./posts/2023-01-02-SC-meeting.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2023-01-02-SC-meeting.html" class="no-external">Steering committee meeting</a>
+<a href="./posts/2023-01-02-SC-meeting.html" class="no-external-icon">Steering committee meeting</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U0MlMjBtZWV0aW5n'); return false;">SC meeting</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2023-01-02-SC-meeting.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2023-01-02-SC-meeting.html" class="no-external-icon">
 <p>Second steering committee meeting</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2023-01-02-SC-meeting.html" class="no-external">
+<a href="./posts/2023-01-02-SC-meeting.html" class="no-external-icon">
 <div class="listing-date">
 Jan 2, 2023
 </div>
@@ -1218,27 +1275,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="U0MlMjBtZWV0aW5n" data-listing-date-sort="1670371200000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
-<div class="thumbnail"><a href="./posts/2022-12-07-SC-meeting.html" class="no-external">
+<div class="quarto-post image-right" data-index="27" data-categories="U0MlMjBtZWV0aW5n" data-listing-date-sort="1670371200000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="thumbnail"><a href="./posts/2022-12-07-SC-meeting.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2022-12-07-SC-meeting.html" class="no-external">Steering committee meeting</a>
+<a href="./posts/2022-12-07-SC-meeting.html" class="no-external-icon">Steering committee meeting</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U0MlMjBtZWV0aW5n'); return false;">SC meeting</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2022-12-07-SC-meeting.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2022-12-07-SC-meeting.html" class="no-external-icon">
 <p>First steering committee meeting</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2022-12-07-SC-meeting.html" class="no-external">
+<a href="./posts/2022-12-07-SC-meeting.html" class="no-external-icon">
 <div class="listing-date">
 Dec 7, 2022
 </div>
@@ -1248,27 +1307,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="U0MlMjBtZWV0aW5n" data-listing-date-sort="1667260800000" data-listing-file-modified-sort="1793550643733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
-<div class="thumbnail"><a href="./posts/2022-11-01-SC-formed.html" class="no-external">
+<div class="quarto-post image-right" data-index="28" data-categories="U0MlMjBtZWV0aW5n" data-listing-date-sort="1667260800000" data-listing-file-modified-sort="1793618445235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
+<div class="thumbnail"><a href="./posts/2022-11-01-SC-formed.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2022-11-01-SC-formed.html" class="no-external">Steering committee formed</a>
+<a href="./posts/2022-11-01-SC-formed.html" class="no-external-icon">Steering committee formed</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('U0MlMjBtZWV0aW5n'); return false;">SC meeting</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2022-11-01-SC-formed.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2022-11-01-SC-formed.html" class="no-external-icon">
 <p>A steering committee of seven was formed.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2022-11-01-SC-formed.html" class="no-external">
+<a href="./posts/2022-11-01-SC-formed.html" class="no-external-icon">
 <div class="listing-date">
 Nov 1, 2022
 </div>
@@ -1278,27 +1339,29 @@ Admin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="TmV3cw==" data-listing-date-sort="1666915200000" data-listing-file-modified-sort="1793550643731" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
-<div class="thumbnail"><a href="./posts/2022-10-28-network-formed.html" class="no-external">
+<div class="quarto-post image-right" data-index="29" data-categories="TmV3cw==" data-listing-date-sort="1666915200000" data-listing-file-modified-sort="1793618445233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="thumbnail"><a href="./posts/2022-10-28-network-formed.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2022-10-28-network-formed.html" class="no-external">Network formed</a>
+<a href="./posts/2022-10-28-network-formed.html" class="no-external-icon">Network formed</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('TmV3cw=='); return false;">News</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2022-10-28-network-formed.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2022-10-28-network-formed.html" class="no-external-icon">
 <p>In October 2022 the Response Diversity Network was formed</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2022-10-28-network-formed.html" class="no-external">
+<a href="./posts/2022-10-28-network-formed.html" class="no-external-icon">
 <div class="listing-date">
 Oct 28, 2022
 </div>
@@ -1318,15 +1381,50 @@ Admin
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Toggle dark mode");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
       const i = window.document.createElement("i");
       i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Toggle dark mode");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
     }
     setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
@@ -1401,11 +1499,30 @@ Admin
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("https:\/\/responsediversitynetwork\.github\.io\/RDN-website\/");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -1419,8 +1536,70 @@ Admin
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -1434,6 +1613,7 @@ Admin
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -1596,44 +1776,54 @@ Admin
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1732,13 +1922,16 @@ Admin
     }
   });
   </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- Last edited November 1, 2026
+ Last edited November 2, 2026
   </li>  
 </ul>
     </div>   
