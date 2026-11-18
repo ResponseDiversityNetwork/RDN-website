@@ -1,131 +1,88 @@
 [
   {
     "id": "rdn-2026-001",
-    "title": "Response diversity rocks",
-    "lead": {
-      "name": "Unreal Petchey",
-      "institution": "UZH"
-    },
-    "summary": "blah blah blah blah blah blah blah blah blah blah blah blah",
-    "response_diversity": [
-      "Temporal (asynchrony, timing of responses)",
-      "Intraspecific / genetic"
-    ],
-    "organisms": [
-      "Invertebrates",
-      "Fungi"
-    ],
-    "ecosystems": [
-      "Freshwater"
-    ],
-    "drivers": "temperature",
-    "approaches": [
-      "Laboratory or mesocosm experiment"
-    ],
-    "stage": "In progress - team set",
-    "contributions_sought": [
-      "Data",
-      "Analysis / statistics",
-      "Modelling / theory"
-    ],
-    "authorship_guidelines": "NA",
-    "timeline": "3 months",
-    "listing": "full",
-    "created": "2026-10-01",
-    "updated": "2026-10-02"
-  },
-  {
-    "id": "rdn-2026-002",
-    "title": "Someone save me",
+    "title": "Deriving zooplankton response diversity from SDMs",
     "lead": {
       "name": "Sam Ross",
       "institution": "Kyoto University"
     },
-    "summary": "The new job is fairly admin heavy so far, so I am convening an RDN team to help me, ideally via collaborative consumption of alcoholic beverages...",
+    "summary": "In this project we use empirical data on zooplankton communities in reservoirs across Japan to first derive species distribution models and link species occurrence probability to environmental variables. We then simulate species extinctions on these communities and ask whether the response diversity of these communities to various environmental variables can predict reductions in functional diversity and functional \"robustness\".",
     "response_diversity": [
+      "Spatial",
       "Other"
     ],
     "organisms": [
-      "Not organism-specific"
+      "Invertebrates"
     ],
     "ecosystems": [
-      "Terrestrial"
+      "Freshwater"
     ],
-    "drivers": "stress (psychological)",
+    "drivers": "Temperature, land use characteristics, predation pressure",
     "approaches": [
-      "Laboratory or mesocosm experiment",
+      "Observational / monitoring data",
       "Data compilation"
     ],
-    "stage": "Seeking collaborators",
-    "contributions_sought": [
-      "Funding / hosting"
-    ],
-    "authorship_guidelines": "it is open to anyone who can BYOB",
-    "timeline": "ASAP (or in December :) )",
+    "stage": "In review",
     "listing": "full",
-    "created": "2026-10-05",
-    "updated": "2026-10-05"
+    "created": "2026-11-18",
+    "updated": "2026-11-18"
   },
   {
-    "id": "rdn-2026-003",
-    "title": "Do trees have diverse responses to poking?",
+    "id": "rdn-2026-002",
+    "title": "Floating macrophyte response diversity - stability mesocosm experiment",
     "lead": {
-      "name": "Zeres",
-      "institution": "CFS",
-      "orcid": "0000-0003-4036-977X"
+      "name": "Sam Ross",
+      "institution": "Kyoto University"
     },
-    "summary": "Poke a tree a see what it does. Poke many trees and measure RD.",
+    "summary": "We conducted a large mesocosm experiment with all combinations of 4 species of floating aquatic macrophytes. We exposed them to different nitrate concentrations and derived growth responses, then used response diversity per mesocosm as a predictor of temporal stability, and also resistance in response to an exogenous disturbance (a large typhoon).",
     "response_diversity": [
-      "Response traits / functional response diversity",
-      "Other"
+      "Temporal (asynchrony, timing of responses)"
     ],
     "organisms": [
       "Plants"
     ],
     "ecosystems": [
-      "Terrestrial"
+      "Freshwater"
     ],
-    "drivers": "Poking",
+    "drivers": "Nitrogen stress",
     "approaches": [
-      "Field experiment"
+      "Laboratory or mesocosm experiment"
     ],
-    "stage": "Idea - gauging interest",
-    "contributions_sought": [
-      "Data",
-      "Analysis / statistics",
-      "Modelling / theory"
+    "stage": "In review",
+    "links": [
+      "https://doi.org/10.64898/2026.06.10.731482"
     ],
-    "authorship_guidelines": "Toss of a coin",
-    "timeline": "10 years",
     "listing": "full",
-    "created": "2026-10-06",
-    "updated": "2026-10-06"
+    "created": "2026-11-17",
+    "updated": "2026-11-18"
   },
   {
-    "id": "rdn-2026-004",
-    "title": "Test ReDiLEEP DC11 Project 1",
+    "id": "rdn-2026-003",
+    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
     "lead": {
-      "name": "me (testing an edit)"
+      "name": "Owen Petchey",
+      "institution": "University of Zurich",
+      "orcid": "0000-0002-7724-1633"
     },
-    "summary": "Project about response diversity and policy",
+    "summary": "We use simulated communities to ask when response diversity, the differences among species in how they respond to environmental change, stabilises community biomass. We show that this depends on how much environmental variation is slow relative to the community's own response times, which we call slow environment exposure.",
     "response_diversity": [
       "Response traits / functional response diversity",
-      "Other"
+      "Conceptual / definitions"
     ],
     "organisms": [
-      "Microbes",
-      "Multiple / whole communities"
+      "Not organism-specific"
     ],
     "ecosystems": [
-      "Terrestrial"
+      "Not ecosystem-specific"
     ],
-    "tags": [
-      "ReDiLEEP",
-      "DC11"
+    "drivers": "Temperature",
+    "approaches": [
+      "Theory / modelling"
     ],
-    "stage": "Idea - gauging interest",
+    "stage": "In progress - team set",
+    "timeline": "Submission mid January 2027",
     "listing": "full",
-    "created": "2026-10-15",
-    "updated": "2026-11-01"
+    "created": "2026-11-18",
+    "updated": "2026-11-18"
   }
 ]
