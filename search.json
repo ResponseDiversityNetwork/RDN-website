@@ -392,32 +392,32 @@
     "text": "Once a year\nWe will email you your update link once a year and ask whether the project is still active, so the register stays current."
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-003.html",
-    "href": "projectbase/projects/rdn-2026-003.html",
-    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
+    "objectID": "projectbase/projects/rdn-2026-001.html",
+    "href": "projectbase/projects/rdn-2026-001.html",
+    "title": "Deriving zooplankton response diversity from SDMs",
     "section": "",
-    "text": "Owen Petchey\nProject ID: rdn-2026-003\nStage: In progress - team set\nLead: Owen Petchey, University of Zurich (ORCID)\nFirst listed: 2026-11-18"
+    "text": "Sam Ross\nProject ID: rdn-2026-001\nStage: In review\nLead: Sam Ross, Kyoto University\nFirst listed: 2026-11-18"
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-003.html#summary",
-    "href": "projectbase/projects/rdn-2026-003.html#summary",
-    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
+    "objectID": "projectbase/projects/rdn-2026-001.html#summary",
+    "href": "projectbase/projects/rdn-2026-001.html#summary",
+    "title": "Deriving zooplankton response diversity from SDMs",
     "section": "Summary",
-    "text": "Summary\nWe use simulated communities to ask when response diversity, the differences among species in how they respond to environmental change, stabilises community biomass. We show that this depends on how much environmental variation is slow relative to the community’s own response times, which we call slow environment exposure."
+    "text": "Summary\nIn this project we use empirical data on zooplankton communities in reservoirs across Japan to first derive species distribution models and link species occurrence probability to environmental variables. We then simulate species extinctions on these communities and ask whether the response diversity of these communities to various environmental variables can predict reductions in functional diversity and functional “robustness”."
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-003.html#at-a-glance",
-    "href": "projectbase/projects/rdn-2026-003.html#at-a-glance",
-    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
+    "objectID": "projectbase/projects/rdn-2026-001.html#at-a-glance",
+    "href": "projectbase/projects/rdn-2026-001.html#at-a-glance",
+    "title": "Deriving zooplankton response diversity from SDMs",
     "section": "At a glance",
-    "text": "At a glance\n\n\n\n\n\n\n\nResponse diversity\nResponse traits / functional response diversity, Conceptual / definitions\n\n\nOrganisms\nNot organism-specific\n\n\nEcosystems\nNot ecosystem-specific\n\n\nApproaches\nTheory / modelling\n\n\nDrivers / disturbances\nTemperature\n\n\nTimeline\nSubmission mid January 2027"
+    "text": "At a glance\n\n\n\n\n\n\n\nResponse diversity\nSpatial, Other\n\n\nOrganisms\nInvertebrates\n\n\nEcosystems\nFreshwater\n\n\nApproaches\nObservational / monitoring data, Data compilation\n\n\nDrivers / disturbances\nTemperature, land use characteristics, predation pressure"
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-003.html#get-involved",
-    "href": "projectbase/projects/rdn-2026-003.html#get-involved",
-    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
+    "objectID": "projectbase/projects/rdn-2026-001.html#get-involved",
+    "href": "projectbase/projects/rdn-2026-001.html#get-involved",
+    "title": "Deriving zooplankton response diversity from SDMs",
     "section": "Get involved",
-    "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-003, and we will put you in touch with the project lead."
+    "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-001, and we will put you in touch with the project lead."
   },
   {
     "objectID": "projectbase/projects/rdn-2026-002.html",
@@ -455,39 +455,81 @@
     "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-002, and we will put you in touch with the project lead."
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-001.html",
-    "href": "projectbase/projects/rdn-2026-001.html",
-    "title": "Deriving zooplankton response diversity from SDMs",
+    "objectID": "projectbase/projects/rdn-2026-003.html",
+    "href": "projectbase/projects/rdn-2026-003.html",
+    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
     "section": "",
-    "text": "Sam Ross\nProject ID: rdn-2026-001\nStage: In review\nLead: Sam Ross, Kyoto University\nFirst listed: 2026-11-18"
+    "text": "Owen Petchey\nProject ID: rdn-2026-003\nStage: In progress - team set\nLead: Owen Petchey, University of Zurich (ORCID)\nFirst listed: 2026-11-18"
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-001.html#summary",
-    "href": "projectbase/projects/rdn-2026-001.html#summary",
-    "title": "Deriving zooplankton response diversity from SDMs",
+    "objectID": "projectbase/projects/rdn-2026-003.html#summary",
+    "href": "projectbase/projects/rdn-2026-003.html#summary",
+    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
     "section": "Summary",
-    "text": "Summary\nIn this project we use empirical data on zooplankton communities in reservoirs across Japan to first derive species distribution models and link species occurrence probability to environmental variables. We then simulate species extinctions on these communities and ask whether the response diversity of these communities to various environmental variables can predict reductions in functional diversity and functional “robustness”."
+    "text": "Summary\nWe use simulated communities to ask when response diversity, the differences among species in how they respond to environmental change, stabilises community biomass. We show that this depends on how much environmental variation is slow relative to the community’s own response times, which we call slow environment exposure."
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-001.html#at-a-glance",
-    "href": "projectbase/projects/rdn-2026-001.html#at-a-glance",
-    "title": "Deriving zooplankton response diversity from SDMs",
+    "objectID": "projectbase/projects/rdn-2026-003.html#at-a-glance",
+    "href": "projectbase/projects/rdn-2026-003.html#at-a-glance",
+    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
     "section": "At a glance",
-    "text": "At a glance\n\n\n\n\n\n\n\nResponse diversity\nSpatial, Other\n\n\nOrganisms\nInvertebrates\n\n\nEcosystems\nFreshwater\n\n\nApproaches\nObservational / monitoring data, Data compilation\n\n\nDrivers / disturbances\nTemperature, land use characteristics, predation pressure"
+    "text": "At a glance\n\n\n\n\n\n\n\nResponse diversity\nResponse traits / functional response diversity, Conceptual / definitions\n\n\nOrganisms\nNot organism-specific\n\n\nEcosystems\nNot ecosystem-specific\n\n\nApproaches\nTheory / modelling\n\n\nDrivers / disturbances\nTemperature\n\n\nTimeline\nSubmission mid January 2027"
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-001.html#get-involved",
-    "href": "projectbase/projects/rdn-2026-001.html#get-involved",
-    "title": "Deriving zooplankton response diversity from SDMs",
+    "objectID": "projectbase/projects/rdn-2026-003.html#get-involved",
+    "href": "projectbase/projects/rdn-2026-003.html#get-involved",
+    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
     "section": "Get involved",
-    "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-001, and we will put you in touch with the project lead."
+    "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-003, and we will put you in touch with the project lead."
+  },
+  {
+    "objectID": "projectbase/projects/rdn-2026-004.html",
+    "href": "projectbase/projects/rdn-2026-004.html",
+    "title": "Response diversity and the persistence of farmer-managed cardamom agroforestry in the eastern Himalaya",
+    "section": "",
+    "text": "Hom Nath Khatiwada\nProject ID: rdn-2026-004\nStage: In progress - open to collaborators\nLead: Hom Nath Khatiwada\nFirst listed: 2026-11-18"
+  },
+  {
+    "objectID": "projectbase/projects/rdn-2026-004.html#summary",
+    "href": "projectbase/projects/rdn-2026-004.html#summary",
+    "title": "Response diversity and the persistence of farmer-managed cardamom agroforestry in the eastern Himalaya",
+    "section": "Summary",
+    "text": "Summary\nLarge cardamom grown under Alnus nepalensis canopy is a long-standing, multi-species agroforestry system in eastern Nepal and a major source of household income. Farmers report that cardamom performance is declining, even under canopy, and that production is moving to open land, while some households diversify their livelihoods and others abandon formerly productive land. This coupled social-ecological project asks whether variation in how the system’s components (plants, soil microbes, insects, patches and households) respond to shared gradients helps explain why some farms persist and others do not. The gradients we plan to use are canopy openness (light and heat exposure), soil conditions, disease and insect pressure, and market change. The functions of interest are cardamom production and household livelihood stability. We also ask how farmers update their management as evidence accumulates from their own experience, from other people, and from digital climate and market information, and how that updating shapes patch diversity. Fieldwork, including farmer perceptions, soil and tree measurements and linked plot data, is continuing as a pilot. Infrastructure for deeper study is limited, and we are seeking collaborators to help ground the work in response diversity theory and methods."
+  },
+  {
+    "objectID": "projectbase/projects/rdn-2026-004.html#at-a-glance",
+    "href": "projectbase/projects/rdn-2026-004.html#at-a-glance",
+    "title": "Response diversity and the persistence of farmer-managed cardamom agroforestry in the eastern Himalaya",
+    "section": "At a glance",
+    "text": "At a glance\n\n\n\n\n\n\n\nResponse diversity\nResponse traits / functional response diversity, Spatial, Intraspecific / genetic, Across levels of organisation\n\n\nOrganisms\nMicrobes, Plants, Fungi, Multiple / whole communities\n\n\nEcosystems\nTerrestrial, Agricultural, Laboratory / mesocosm\n\n\nApproaches\nTheory / modelling, Laboratory or mesocosm experiment, Field experiment, Observational / monitoring data, Methods / software, Data compilation\n\n\nDrivers / disturbances\ncanopy loos and land use change, climate and temperature, soil conditions, disease and insect pests, market change, information"
+  },
+  {
+    "objectID": "projectbase/projects/rdn-2026-004.html#contributions-sought",
+    "href": "projectbase/projects/rdn-2026-004.html#contributions-sought",
+    "title": "Response diversity and the persistence of farmer-managed cardamom agroforestry in the eastern Himalaya",
+    "section": "Contributions sought",
+    "text": "Contributions sought\n\nData\nAnalysis / statistics\nModelling / theory\nField or lab work\nFunding / hosting"
+  },
+  {
+    "objectID": "projectbase/projects/rdn-2026-004.html#authorship",
+    "href": "projectbase/projects/rdn-2026-004.html#authorship",
+    "title": "Response diversity and the persistence of farmer-managed cardamom agroforestry in the eastern Himalaya",
+    "section": "Authorship",
+    "text": "Authorship\nAuthorship will follow the CRediT contributor roles and will be discussed openly with any collaborator at the start."
+  },
+  {
+    "objectID": "projectbase/projects/rdn-2026-004.html#get-involved",
+    "href": "projectbase/projects/rdn-2026-004.html#get-involved",
+    "title": "Response diversity and the persistence of farmer-managed cardamom agroforestry in the eastern Himalaya",
+    "section": "Get involved",
+    "text": "Get involved\nContact the project lead at cognition.nepal@gmail.com."
   },
   {
     "objectID": "projectbase/index.html",
     "href": "projectbase/index.html",
     "title": "Response diversity projects",
     "section": "",
-    "text": "Browse projects shared by the RDN community. Click a category or #tag in the sidebar to filter, or search.\n\n\n\n\n\nBrowse projects · Tags · Share a project · About & guidelines\n\nWant to list your own project? Share a project — it takes about ten minutes. See all tags to find projects from the same network or programme.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Project\n      \n      \n        Lead\n      \n      \n        Stage\n      \n      \n        Updated - Oldest\n      \n      \n        Updated - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nProject\n\n\n\nLead\n\n\n\nStage\n\n\n\nTags\n\n\n\nUpdated\n\n\n\n\n\n\n\n\nFloating macrophyte response diversity - stability mesocosm experiment\n\n\nSam Ross\n\n\nIn review\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nResponse diversity and slow environment exposure combine to explain and predict community stability\n\n\nOwen Petchey\n\n\nIn progress - team set\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nDeriving zooplankton response diversity from SDMs\n\n\nSam Ross\n\n\nIn review\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nNo matching items"
+    "text": "Browse projects shared by the RDN community. Click a category or #tag in the sidebar to filter, or search.\n\n\n\n\n\nBrowse projects · Tags · Share a project · About & guidelines\n\nWant to list your own project? Share a project — it takes about ten minutes. See all tags to find projects from the same network or programme.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Project\n      \n      \n        Lead\n      \n      \n        Stage\n      \n      \n        Updated - Oldest\n      \n      \n        Updated - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nProject\n\n\n\nLead\n\n\n\nStage\n\n\n\nTags\n\n\n\nUpdated\n\n\n\n\n\n\n\n\nFloating macrophyte response diversity - stability mesocosm experiment\n\n\nSam Ross\n\n\nIn review\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nResponse diversity and slow environment exposure combine to explain and predict community stability\n\n\nOwen Petchey\n\n\nIn progress - team set\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nDeriving zooplankton response diversity from SDMs\n\n\nSam Ross\n\n\nIn review\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nResponse diversity and the persistence of farmer-managed cardamom agroforestry in the eastern Himalaya\n\n\nHom Nath Khatiwada\n\n\nIn progress - open to collaborators\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projectbase/tags.html",
