@@ -280,39 +280,95 @@
     "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-002, and we will put you in touch with the project lead."
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-003.html",
-    "href": "projectbase/projects/rdn-2026-003.html",
-    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
+    "objectID": "projectbase/projects/rdn-2026-006.html",
+    "href": "projectbase/projects/rdn-2026-006.html",
+    "title": "Future projections of biodiversity under global change need to include response diversity",
     "section": "",
-    "text": "Owen Petchey\nProject ID: rdn-2026-003\nStage: In progress - team set\nLead: Owen Petchey, University of Zurich (ORCID)\nFirst listed: 2026-11-18"
+    "text": "Maura Ganz\nProject ID: rdn-2026-006\nStage: In review\nLead: Maura Ganz, University of Zurich, Departement of Environmental and Evolutionary Sciences, Predictive Ecology Group (ORCID)\nFirst listed: 2026-11-23"
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-003.html#summary",
-    "href": "projectbase/projects/rdn-2026-003.html#summary",
-    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
+    "objectID": "projectbase/projects/rdn-2026-006.html#summary",
+    "href": "projectbase/projects/rdn-2026-006.html#summary",
+    "title": "Future projections of biodiversity under global change need to include response diversity",
     "section": "Summary",
-    "text": "Summary\nWe use simulated communities to ask when response diversity, the differences among species in how they respond to environmental change, stabilises community biomass. We show that this depends on how much environmental variation is slow relative to the community’s own response times, which we call slow environment exposure."
+    "text": "Summary\nA perspective article that is the first of six connected activities to bring response diversity into biodiversity monitoring, assessment, and projections. It argues that current policy targets for biodiversity resilience to climate change cannot be met without forward-looking predictors of ecosystem stability.\nCurrent biodiversity indicators describe state but provide limited information on how functionally relevant species will respond to change. Response diversity provides a mechanistic link between biodiversity and the stability of ecosystem functioning. Recent methodological developments and empirical validation increasingly make it possible to quantify response diversity from traits, performance–environment relationships, and time series, and translate it into decision-relevant estimates of ecosystem stability.\nWe identify the forecasting and policy gap, explain why response diversity matters and has been difficult to operationalize, and outline priorities for its development and application. The need for predictive indicators of ecosystem stability and associated risks extends beyond conservation policy, as businesses and financial actors also seek decision-ready metrics. Coordinated comparison, validation, and translation into decision-relevant indicators will be addressed in subsequent activities."
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-003.html#at-a-glance",
-    "href": "projectbase/projects/rdn-2026-003.html#at-a-glance",
-    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
+    "objectID": "projectbase/projects/rdn-2026-006.html#at-a-glance",
+    "href": "projectbase/projects/rdn-2026-006.html#at-a-glance",
+    "title": "Future projections of biodiversity under global change need to include response diversity",
     "section": "At a glance",
-    "text": "At a glance\n\n\n\n\n\n\n\nResponse diversity\nResponse traits / functional response diversity, Conceptual / definitions\n\n\nOrganisms\nNot organism-specific\n\n\nEcosystems\nNot ecosystem-specific\n\n\nApproaches\nTheory / modelling\n\n\nDrivers / disturbances\nTemperature\n\n\nTimeline\nSubmission mid January 2027"
+    "text": "At a glance\n\n\n\nResponse diversity\nConceptual / definitions\n\n\nEcosystems\nNot ecosystem-specific\n\n\nApproaches\nSynthesis / meta-analysis, Other\n\n\nDrivers / disturbances\nNot driver- / disturbance-specific\n\n\nTimeline\nExpected publication in January (hopefully)"
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-003.html#get-involved",
-    "href": "projectbase/projects/rdn-2026-003.html#get-involved",
-    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
+    "objectID": "projectbase/projects/rdn-2026-006.html#get-involved",
+    "href": "projectbase/projects/rdn-2026-006.html#get-involved",
+    "title": "Future projections of biodiversity under global change need to include response diversity",
     "section": "Get involved",
-    "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-003, and we will put you in touch with the project lead."
+    "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-006, and we will put you in touch with the project lead."
   },
   {
-    "objectID": "projectbase/tags.html",
-    "href": "projectbase/tags.html",
-    "title": "Tags",
+    "objectID": "projectbase/projects/rdn-2026-001.html",
+    "href": "projectbase/projects/rdn-2026-001.html",
+    "title": "Deriving zooplankton response diversity from SDMs",
     "section": "",
-    "text": "Browse projects · Tags · Share a project · About & guidelines\n\nTags group projects that belong to the same network, programme or initiative, for example #ReDiLEEP for projects in the ReDiLEEP MSCA doctoral network, plus #DC11 for its doctoral project DC11. A project can have several tags.\nBefore adding a new tag in the form, please check this list and reuse an existing tag if one fits, spelled exactly as shown. New tags are welcome when nothing fits.\nNo tags have been used yet."
+    "text": "Sam Ross\nProject ID: rdn-2026-001\nStage: In review\nLead: Sam Ross, Kyoto University\nFirst listed: 2026-11-18"
+  },
+  {
+    "objectID": "projectbase/projects/rdn-2026-001.html#summary",
+    "href": "projectbase/projects/rdn-2026-001.html#summary",
+    "title": "Deriving zooplankton response diversity from SDMs",
+    "section": "Summary",
+    "text": "Summary\nIn this project we use empirical data on zooplankton communities in reservoirs across Japan to first derive species distribution models and link species occurrence probability to environmental variables. We then simulate species extinctions on these communities and ask whether the response diversity of these communities to various environmental variables can predict reductions in functional diversity and functional “robustness”."
+  },
+  {
+    "objectID": "projectbase/projects/rdn-2026-001.html#at-a-glance",
+    "href": "projectbase/projects/rdn-2026-001.html#at-a-glance",
+    "title": "Deriving zooplankton response diversity from SDMs",
+    "section": "At a glance",
+    "text": "At a glance\n\n\n\n\n\n\n\nResponse diversity\nSpatial, Other\n\n\nOrganisms\nInvertebrates\n\n\nEcosystems\nFreshwater\n\n\nApproaches\nObservational / monitoring data, Data compilation\n\n\nDrivers / disturbances\nTemperature, land use characteristics, predation pressure"
+  },
+  {
+    "objectID": "projectbase/projects/rdn-2026-001.html#get-involved",
+    "href": "projectbase/projects/rdn-2026-001.html#get-involved",
+    "title": "Deriving zooplankton response diversity from SDMs",
+    "section": "Get involved",
+    "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-001, and we will put you in touch with the project lead."
+  },
+  {
+    "objectID": "projectbase/index.html",
+    "href": "projectbase/index.html",
+    "title": "Response diversity projects",
+    "section": "",
+    "text": "Browse projects shared by the RDN community. Click a category or #tag in the sidebar to filter, or search.\n\n\n\n\n\nBrowse projects · Tags · Share a project · About & guidelines\n\nWant to list your own project? Share a project — it takes about ten minutes. See all tags to find projects from the same network or programme.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Project\n      \n      \n        Lead\n      \n      \n        Stage\n      \n      \n        Updated - Oldest\n      \n      \n        Updated - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nProject\n\n\n\nLead\n\n\n\nStage\n\n\n\nTags\n\n\n\nUpdated\n\n\n\n\n\n\n\n\nFuture projections of biodiversity under global change need to include response diversity\n\n\nMaura Ganz\n\n\nIn review\n\n\n \n\n\n2026-11-23\n\n\n\n\n\n\nCommunity performance curves predict temporal stability despite interaction effects\n\n\nFrancesco Polazzo\n\n\nIn review\n\n\n \n\n\n2026-11-19\n\n\n\n\n\n\nDeriving zooplankton response diversity from SDMs\n\n\nSam Ross\n\n\nIn review\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nResponse diversity and slow environment exposure combine to explain and predict community stability\n\n\nOwen Petchey\n\n\nIn progress - team set\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nResponse diversity and the persistence of farmer-managed cardamom agroforestry in the eastern Himalaya\n\n\nHom Nath Khatiwada\n\n\nIn progress - open to collaborators\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nFloating macrophyte response diversity - stability mesocosm experiment\n\n\nSam Ross\n\n\nIn review\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projectbase/submit.html",
+    "href": "projectbase/submit.html",
+    "title": "Share a project",
+    "section": "",
+    "text": "Anyone working on response diversity — RDN member or not — is welcome to list a project, at any stage from a first idea to a published paper."
+  },
+  {
+    "objectID": "projectbase/submit.html#how-it-works",
+    "href": "projectbase/submit.html#how-it-works",
+    "title": "Share a project",
+    "section": "How it works",
+    "text": "How it works\n\nFill in the online form. You can preview the questions first on the About page.\nIf your project belongs to a network or programme, add tags such as #ReDiLEEP #DC11. Please check the existing tags first and reuse one if it fits.\nOpen the project form\nCheck your email. You will receive a confirmation containing your personal update link. Keep it — it opens the form pre-filled with your answers.\nCurator review. An RDN curator checks new entries (usually within a week), then the project appears on the site."
+  },
+  {
+    "objectID": "projectbase/submit.html#updating-or-removing-a-project",
+    "href": "projectbase/submit.html#updating-or-removing-a-project",
+    "title": "Share a project",
+    "section": "Updating or removing a project",
+    "text": "Updating or removing a project\nUse the personal update link in your confirmation email, change what you need, and resubmit. Updates from that link appear on the site automatically within a few minutes. To remove a listing, tick “Please remove this project from the site” in the form.\nLost the link, or changed email address? Write to owen.petchey@uzh.ch with your project ID.\nComfortable with GitHub? You can also edit your project’s file in projects/ directly and open a pull request."
+  },
+  {
+    "objectID": "projectbase/submit.html#once-a-year",
+    "href": "projectbase/submit.html#once-a-year",
+    "title": "Share a project",
+    "section": "Once a year",
+    "text": "Once a year\nWe will email you your update link once a year and ask whether the project is still active, so the register stays current."
   },
   {
     "objectID": "projectbase/about.html",
@@ -378,67 +434,39 @@
     "text": "Acknowledgements\nThis register is inspired by the Ecological Forecasting Initiative’s project register, which in turn drew on GLEON and Zarr-Python."
   },
   {
-    "objectID": "projectbase/submit.html",
-    "href": "projectbase/submit.html",
-    "title": "Share a project",
+    "objectID": "projectbase/tags.html",
+    "href": "projectbase/tags.html",
+    "title": "Tags",
     "section": "",
-    "text": "Anyone working on response diversity — RDN member or not — is welcome to list a project, at any stage from a first idea to a published paper."
+    "text": "Browse projects · Tags · Share a project · About & guidelines\n\nTags group projects that belong to the same network, programme or initiative, for example #ReDiLEEP for projects in the ReDiLEEP MSCA doctoral network, plus #DC11 for its doctoral project DC11. A project can have several tags.\nBefore adding a new tag in the form, please check this list and reuse an existing tag if one fits, spelled exactly as shown. New tags are welcome when nothing fits.\nNo tags have been used yet."
   },
   {
-    "objectID": "projectbase/submit.html#how-it-works",
-    "href": "projectbase/submit.html#how-it-works",
-    "title": "Share a project",
-    "section": "How it works",
-    "text": "How it works\n\nFill in the online form. You can preview the questions first on the About page.\nIf your project belongs to a network or programme, add tags such as #ReDiLEEP #DC11. Please check the existing tags first and reuse one if it fits.\nOpen the project form\nCheck your email. You will receive a confirmation containing your personal update link. Keep it — it opens the form pre-filled with your answers.\nCurator review. An RDN curator checks new entries (usually within a week), then the project appears on the site."
-  },
-  {
-    "objectID": "projectbase/submit.html#updating-or-removing-a-project",
-    "href": "projectbase/submit.html#updating-or-removing-a-project",
-    "title": "Share a project",
-    "section": "Updating or removing a project",
-    "text": "Updating or removing a project\nUse the personal update link in your confirmation email, change what you need, and resubmit. Updates from that link appear on the site automatically within a few minutes. To remove a listing, tick “Please remove this project from the site” in the form.\nLost the link, or changed email address? Write to owen.petchey@uzh.ch with your project ID.\nComfortable with GitHub? You can also edit your project’s file in projects/ directly and open a pull request."
-  },
-  {
-    "objectID": "projectbase/submit.html#once-a-year",
-    "href": "projectbase/submit.html#once-a-year",
-    "title": "Share a project",
-    "section": "Once a year",
-    "text": "Once a year\nWe will email you your update link once a year and ask whether the project is still active, so the register stays current."
-  },
-  {
-    "objectID": "projectbase/index.html",
-    "href": "projectbase/index.html",
-    "title": "Response diversity projects",
+    "objectID": "projectbase/projects/rdn-2026-003.html",
+    "href": "projectbase/projects/rdn-2026-003.html",
+    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
     "section": "",
-    "text": "Browse projects shared by the RDN community. Click a category or #tag in the sidebar to filter, or search.\n\n\n\n\n\nBrowse projects · Tags · Share a project · About & guidelines\n\nWant to list your own project? Share a project — it takes about ten minutes. See all tags to find projects from the same network or programme.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Project\n      \n      \n        Lead\n      \n      \n        Stage\n      \n      \n        Updated - Oldest\n      \n      \n        Updated - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nProject\n\n\n\nLead\n\n\n\nStage\n\n\n\nTags\n\n\n\nUpdated\n\n\n\n\n\n\n\n\nCommunity performance curves predict temporal stability despite interaction effects\n\n\nFrancesco Polazzo\n\n\nIn review\n\n\n \n\n\n2026-11-19\n\n\n\n\n\n\nDeriving zooplankton response diversity from SDMs\n\n\nSam Ross\n\n\nIn review\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nResponse diversity and slow environment exposure combine to explain and predict community stability\n\n\nOwen Petchey\n\n\nIn progress - team set\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nResponse diversity and the persistence of farmer-managed cardamom agroforestry in the eastern Himalaya\n\n\nHom Nath Khatiwada\n\n\nIn progress - open to collaborators\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nFloating macrophyte response diversity - stability mesocosm experiment\n\n\nSam Ross\n\n\nIn review\n\n\n \n\n\n2026-11-18\n\n\n\n\n\n\nNo matching items"
+    "text": "Owen Petchey\nProject ID: rdn-2026-003\nStage: In progress - team set\nLead: Owen Petchey, University of Zurich (ORCID)\nFirst listed: 2026-11-18"
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-001.html",
-    "href": "projectbase/projects/rdn-2026-001.html",
-    "title": "Deriving zooplankton response diversity from SDMs",
-    "section": "",
-    "text": "Sam Ross\nProject ID: rdn-2026-001\nStage: In review\nLead: Sam Ross, Kyoto University\nFirst listed: 2026-11-18"
-  },
-  {
-    "objectID": "projectbase/projects/rdn-2026-001.html#summary",
-    "href": "projectbase/projects/rdn-2026-001.html#summary",
-    "title": "Deriving zooplankton response diversity from SDMs",
+    "objectID": "projectbase/projects/rdn-2026-003.html#summary",
+    "href": "projectbase/projects/rdn-2026-003.html#summary",
+    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
     "section": "Summary",
-    "text": "Summary\nIn this project we use empirical data on zooplankton communities in reservoirs across Japan to first derive species distribution models and link species occurrence probability to environmental variables. We then simulate species extinctions on these communities and ask whether the response diversity of these communities to various environmental variables can predict reductions in functional diversity and functional “robustness”."
+    "text": "Summary\nWe use simulated communities to ask when response diversity, the differences among species in how they respond to environmental change, stabilises community biomass. We show that this depends on how much environmental variation is slow relative to the community’s own response times, which we call slow environment exposure."
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-001.html#at-a-glance",
-    "href": "projectbase/projects/rdn-2026-001.html#at-a-glance",
-    "title": "Deriving zooplankton response diversity from SDMs",
+    "objectID": "projectbase/projects/rdn-2026-003.html#at-a-glance",
+    "href": "projectbase/projects/rdn-2026-003.html#at-a-glance",
+    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
     "section": "At a glance",
-    "text": "At a glance\n\n\n\n\n\n\n\nResponse diversity\nSpatial, Other\n\n\nOrganisms\nInvertebrates\n\n\nEcosystems\nFreshwater\n\n\nApproaches\nObservational / monitoring data, Data compilation\n\n\nDrivers / disturbances\nTemperature, land use characteristics, predation pressure"
+    "text": "At a glance\n\n\n\n\n\n\n\nResponse diversity\nResponse traits / functional response diversity, Conceptual / definitions\n\n\nOrganisms\nNot organism-specific\n\n\nEcosystems\nNot ecosystem-specific\n\n\nApproaches\nTheory / modelling\n\n\nDrivers / disturbances\nTemperature\n\n\nTimeline\nSubmission mid January 2027"
   },
   {
-    "objectID": "projectbase/projects/rdn-2026-001.html#get-involved",
-    "href": "projectbase/projects/rdn-2026-001.html#get-involved",
-    "title": "Deriving zooplankton response diversity from SDMs",
+    "objectID": "projectbase/projects/rdn-2026-003.html#get-involved",
+    "href": "projectbase/projects/rdn-2026-003.html#get-involved",
+    "title": "Response diversity and slow environment exposure combine to explain and predict community stability",
     "section": "Get involved",
-    "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-001, and we will put you in touch with the project lead."
+    "text": "Get involved\nEmail the RDN project curators at owen.petchey@uzh.ch, quoting project ID rdn-2026-003, and we will put you in touch with the project lead."
   },
   {
     "objectID": "projectbase/projects/rdn-2026-004.html",
